@@ -11,6 +11,8 @@ public class Message : MonoBehaviour
     private string m_timestamp { get; set; }
     private Sprite m_profilePicture { get; set; }
 
+    private string m_channelName { get; set; }
+
     [SerializeField]
     private TextMeshProUGUI m_usernameText;
 
@@ -27,6 +29,8 @@ public class Message : MonoBehaviour
     [SerializeField]
     private Button m_clickable;
 
+    private bool violatesRules;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,12 +38,13 @@ public class Message : MonoBehaviour
         renderMessage();
     }
 
-    public void setMessage(string username, string message, string timestamp, Sprite profilePicture)
+    public void setMessage(string username, string message, string timestamp, Sprite profilePicture, string channelName)
     {
         this.m_username = username;
         this.m_message = message;
         this.m_timestamp = timestamp;
         this.m_profilePicture = profilePicture;
+        this.m_channelName = channelName;
         renderMessage();
     }
 
@@ -56,4 +61,11 @@ public class Message : MonoBehaviour
         Debug.Log("clicked");
         Utils.setImageAlpha(m_clickable.image, 255);
     }
+
+    void validateMessage()
+    {
+        
+    }
+
+
 }
