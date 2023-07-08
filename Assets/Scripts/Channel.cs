@@ -19,6 +19,7 @@ public class Channel : MonoBehaviour
     [Header("Configuration")]
     [SerializeField] private float m_secDelayBase = 1;
     [SerializeField] private string m_ChannelName;
+    [SerializeField] private bool m_isAnnouncementsChannel = false;
     [SerializeField] private List<Rule> m_ChannelRules;
 
     private ChatscriptData m_chatscriptCurrent;
@@ -30,35 +31,50 @@ public class Channel : MonoBehaviour
     void Start()
     {
         m_chatscriptCurrent = m_dailyChatscripts[0];
+        if (m_isAnnouncementsChannel)
+        {
+            while (m_chatscriptCurrent && m_iCommand < m_chatscriptCurrent.m_commands.Count)
+            {
+                ReadNextCommand();
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (m_chatscriptCurrent &&
+        if (ChannelManager.Instance.GetDayStarted())
+        {
+            if (m_chatscriptCurrent &&
             m_iCommand < m_chatscriptCurrent.m_commands.Count &&
             Time.time >= m_timeNextCommand)
-        {
-            // Read in next command
-
-            ChatscriptCommand chatscriptCommand = m_chatscriptCurrent.m_commands[m_iCommand++];
-
-            switch (chatscriptCommand.m_type)
             {
-                case ChatscriptCommand.TYPE.MESSAGE:
-                    MessageCommand messageCommand = (MessageCommand) chatscriptCommand;
-                    PushMessage(messageCommand.m_strUser, messageCommand.m_strMessage);
-                    m_timeNextCommand = Time.time + m_secDelayBase;
-                    break;
-
-                case ChatscriptCommand.TYPE.PAUSE:
-                    PauseCommand pauseCommand = (PauseCommand) chatscriptCommand;
-                    m_timeNextCommand = Time.time + pauseCommand.m_secPause;
-                    break;
-
-                default:
-                    throw new System.ArgumentException();
+                ReadNextCommand();
             }
+        }
+    }
+
+    void ReadNextCommand()
+    {
+        // Read in next command
+
+        ChatscriptCommand chatscriptCommand = m_chatscriptCurrent.m_commands[m_iCommand++];
+
+        switch (chatscriptCommand.m_type)
+        {
+            case ChatscriptCommand.TYPE.MESSAGE:
+                MessageCommand messageCommand = (MessageCommand)chatscriptCommand;
+                PushMessage(messageCommand.m_strUser, messageCommand.m_strMessage);
+                m_timeNextCommand = Time.time + m_secDelayBase;
+                break;
+
+            case ChatscriptCommand.TYPE.PAUSE:
+                PauseCommand pauseCommand = (PauseCommand)chatscriptCommand;
+                m_timeNextCommand = Time.time + pauseCommand.m_secPause;
+                break;
+
+            default:
+                throw new System.ArgumentException();
         }
     }
 
@@ -91,7 +107,6 @@ public class Channel : MonoBehaviour
 
     public List<Rule> getChannelRules()
     {
-        Debug.Log("HOO AH");
         return m_ChannelRules;
     }
 }

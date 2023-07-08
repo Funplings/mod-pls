@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ChannelManager : MonoBehaviour
@@ -10,6 +11,11 @@ public class ChannelManager : MonoBehaviour
 
     [SerializeField]
     private Channel m_selectedChannel;
+
+    [Header("Scene Components")]
+    [SerializeField] private TextMeshProUGUI m_CurrentChannelHeader;
+
+    private bool m_dayStarted = false;
 
     public static ChannelManager Instance { get; private set; }
     private void Awake()
@@ -25,14 +31,13 @@ public class ChannelManager : MonoBehaviour
         }
     }
 
-    void Start()
+    public void Start()
     {
-        SelectChannel("general");
+        SelectChannel(m_selectedChannel.getChannelName());
     }
 
     public void SelectChannel(string channelName)
     {
-        Debug.Log("Selecting channel");
         foreach (Channel channel in m_Channels)
         {
             if (channel.getChannelName().Equals(channelName))
@@ -48,13 +53,24 @@ public class ChannelManager : MonoBehaviour
                 channel.getChannelButtonObject().GetComponent<ChannelButton>().setButtonAsUnselected();
             }
         }
-        Debug.Log("Bout to Set Text");
+        m_CurrentChannelHeader.text = string.Format("#{0}", m_selectedChannel.getChannelName());
         RulesDisplay.Instance.SetText();
     }
 
+    public void StartDay()
+    {
+        this.m_dayStarted = true;
+    }
+
+    /* GETTERS */
     public Channel GetSelectedChannel()
     {
         return m_selectedChannel;
+    }
+
+    public bool GetDayStarted()
+    {
+        return m_dayStarted;
     }
 
 }
