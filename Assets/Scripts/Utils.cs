@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public static class Utils
 {
@@ -35,5 +36,12 @@ public static class Utils
         {
             throw new System.ArgumentException(dir + " doesn't exist!");
         }
+    }
+
+    public static void setImageAlpha(Image image, float alpha)
+    {
+        var tempColor = image.color;
+        tempColor.a = alpha;
+        image.color = tempColor;
     }
 }
