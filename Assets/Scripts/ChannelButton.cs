@@ -7,7 +7,6 @@ public class ChannelButton : MonoBehaviour
 {
 	[SerializeField] private string m_ChannelName;
 	[SerializeField] private Button m_Button;
-	[SerializeField] private ChannelManager m_ChannelManager;
 	
 	void Start()
 	{
@@ -16,7 +15,7 @@ public class ChannelButton : MonoBehaviour
 
 	void onClickChannelButton()
 	{
-		m_ChannelManager.selectChannel(m_ChannelName);
+		ChannelManager.Instance.SelectChannel(m_ChannelName);
 	}
 
 	public void setButtonAsSelected()
