@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b262de34474c140a67062435fd0294, type: 3}
+  m_Name: Test Convo 1
+  m_EditorClassIdentifier: 
+  m_commands:
+  - rid: 1750842714837221390
+  - rid: 1750842714837221391
+  - rid: 1750842714837221392
+  - rid: 1750842714837221393
+  - rid: 1750842714837221394
+  - rid: 1750842714837221395
+  - rid: 1750842714837221396
+  - rid: 1750842714837221397
+  - rid: 1750842714837221398
+  - rid: 1750842714837221399
+  - rid: 1750842714837221400
+  - rid: 1750842714837221401
+  - rid: 1750842714837221402
+  - rid: 1750842714837221403
+  - rid: 1750842714837221404
+  - rid: 1750842714837221405
+  - rid: 1750842714837221406
+  references:
+    version: 2
+    RefIds:
+    - rid: 1750842714837221390
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: AA
+        m_strMessage: How do I beat Klompo
+    - rid: 1750842714837221391
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: BB
+        m_strMessage: like in the fighting game?
+    - rid: 1750842714837221392
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: AA
+        m_strMessage: I finished the potato farm.
+    - rid: 1750842714837221393
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: AA
+        m_strMessage: How do I beat Klmopo
+    - rid: 1750842714837221394
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: BB
+        m_strMessage: (umm you should probably read the rules about that word!)
+    - rid: 1750842714837221395
+      type: {class: PauseCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 1
+        m_secPause: 5
+    - rid: 1750842714837221396
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: AA
+        m_strMessage: Klompo
+    - rid: 1750842714837221397
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: CC
+        m_strMessage: nahhhhhhhhhhhh
+    - rid: 1750842714837221398
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: CC
+        m_strMessage: there is NO WAY you havent figured out how to beat KLOMPO
+    - rid: 1750842714837221399
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: CC
+        m_strMessage: '@BB this guy is talking about the console game'
+    - rid: 1750842714837221400
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: BB
+        m_strMessage: "i\u2019ve never heard of it, lol."
+    - rid: 1750842714837221401
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: CC
+        m_strMessage: "yeah you spec\u2019d everything into def didnt you\r\n\r\nI'm
+          testing newlines, how's this?\r\n    How about a cheeky tab?\r\n\r\n   
+          ....\r\n... on god, no tab?"
+    - rid: 1750842714837221402
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: AA
+        m_strMessage: What is def
+    - rid: 1750842714837221403
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: CC
+        m_strMessage: defense
+    - rid: 1750842714837221404
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: AA
+        m_strMessage: "What is spec\u2019d"
+    - rid: 1750842714837221405
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: CC
+        m_strMessage: ok look you just gotta kick his shins. like how they killed
+          him in the show
+    - rid: 1750842714837221406
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: AA
+        m_strMessage: What show

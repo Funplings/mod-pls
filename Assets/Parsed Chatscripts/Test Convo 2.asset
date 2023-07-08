@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b262de34474c140a67062435fd0294, type: 3}
+  m_Name: Test Convo 2
+  m_EditorClassIdentifier: 
+  m_commands:
+  - rid: 1750842714837221376
+  - rid: 1750842714837221377
+  - rid: 1750842714837221378
+  - rid: 1750842714837221379
+  - rid: 1750842714837221380
+  - rid: 1750842714837221381
+  - rid: 1750842714837221382
+  - rid: 1750842714837221383
+  - rid: 1750842714837221384
+  - rid: 1750842714837221385
+  - rid: 1750842714837221386
+  - rid: 1750842714837221387
+  - rid: 1750842714837221388
+  - rid: 1750842714837221389
+  references:
+    version: 2
+    RefIds:
+    - rid: 1750842714837221376
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: DD
+        m_strMessage: "Does anyone have a fedora? I\u2019m just curious. I am filming
+          a movie and it needs prop fedoras."
+    - rid: 1750842714837221377
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: EE
+        m_strMessage: "\U0001F642Please visit this link: fedorapleasepleaseplease.con
+          \U0001F920"
+    - rid: 1750842714837221378
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: FF
+        m_strMessage: lmfao theyre using an alt now
+    - rid: 1750842714837221379
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: FF
+        m_strMessage: mods?
+    - rid: 1750842714837221380
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: EE
+        m_strMessage: NO I AM NOT BREAKING ANY RULES MODS
+    - rid: 1750842714837221381
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: EE
+        m_strMessage: THATS NOT MY ALT
+    - rid: 1750842714837221382
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: EE
+        m_strMessage: MODS
+    - rid: 1750842714837221383
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: EE
+        m_strMessage: MODS BAN @FF
+    - rid: 1750842714837221384
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: GG
+        m_strMessage: no one wants to buy ur $55 fedoras @EE!
+    - rid: 1750842714837221385
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: DD
+        m_strMessage: "Does anyone have a fedora? I\u2019m just curious. I am filming
+          a movie and it needs prop fedoras."
+    - rid: 1750842714837221386
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: DD
+        m_strMessage: NO
+    - rid: 1750842714837221387
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: DD
+        m_strMessage: I want to buy fedoras.
+    - rid: 1750842714837221388
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: EE
+        m_strMessage: See?
+    - rid: 1750842714837221389
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: GG
+        m_strMessage: thats not even a fedora emoji its a cowboy hat (???)
