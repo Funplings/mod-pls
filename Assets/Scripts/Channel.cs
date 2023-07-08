@@ -72,7 +72,7 @@ public class Channel : MonoBehaviour
         // Create new message
         GameObject message = Instantiate(m_MessagePrefab, m_MessagesContainer.transform);
         message.transform.position += new Vector3(0, m_messageYOffset);
-        message.GetComponent<Message>().setMessage(strUser, strMessage, "4:00 AM", null);
+        message.GetComponent<Message>().setMessage(strUser, strMessage, "4:00 AM", null, m_ChannelName);
 
         // Decrement message offset position
         m_messageYOffset -= m_messageHeight;
