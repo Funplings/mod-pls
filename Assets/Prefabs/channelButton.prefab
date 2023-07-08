@@ -27,7 +27,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2929450119050643337}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -135,9 +135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 453f955825e827c449c306ac638f0eae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ChannelName: channel
+  m_ChannelName: general
   m_Button: {fileID: 3175444360724729485}
-  m_ChannelManager: {fileID: 0}
 --- !u!1 &3637377705357637216
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,10 +203,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '#channel'
+  m_text: '#announcements'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ebedbd110e01d40bc618af146f8a04, type: 2}
+  m_sharedMaterial: {fileID: 4068673155625154620, guid: 97ebedbd110e01d40bc618af146f8a04, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -231,8 +230,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 12.26
+  m_fontSizeBase: 12.26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
