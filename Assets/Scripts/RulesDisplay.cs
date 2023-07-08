@@ -25,7 +25,6 @@ public class RulesDisplay : MonoBehaviour
 
     public void SetText()
     {
-        Debug.Log("Set Text");
         m_Text = "";
         List<Rule> universalRules = RulesManager.Instance.GetUniversalRules();
 

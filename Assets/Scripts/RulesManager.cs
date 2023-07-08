@@ -19,12 +19,9 @@ public class RulesManager : MonoBehaviour
         {
             Instance = this;
         }
-    }
 
-    private void Start()
-    {
-        m_channelRules = new Dictionary<string, List<Rule>>();
         // Set up channel rules dictionary
+        m_channelRules = new Dictionary<string, List<Rule>>();
         foreach (Channel channel in ChannelManager.Instance.m_Channels)
         {
             m_channelRules.Add(channel.getChannelName(), channel.getChannelRules());
