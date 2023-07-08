@@ -4,17 +4,26 @@ using UnityEngine;
 
 public class Channel : MonoBehaviour
 {
+    [Header("Prefabs")]
+    [SerializeField]
+    private GameObject m_Canvas;
+    [SerializeField]
+    private GameObject m_MessagePrefab;
+
     [Header("References")]
     [SerializeField]
     private ChatscriptData[] m_dailyChatscripts = new ChatscriptData[Constants.DAYS];
 
     [Header("Configuration")]
     [SerializeField] private float m_secDelayBase = 1;
+    [SerializeField] private float m_messageHeight = 60f;
 
     private ChatscriptData m_chatscriptCurrent;
     private int m_iCommand = 0;
 
     private float m_timeNextCommand = 0;
+
+    private float m_messageYOffset = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +63,18 @@ public class Channel : MonoBehaviour
 
     void PushMessage(string strUser, string strMessage)
     {
+        // Shift message container upwards by one message height
+        m_Canvas.transform.position += new Vector3(0, m_messageHeight);
+
+        // Testing
         print(string.Format("User {0} in Channel {1} sent message \"{2}\"", strUser, this.name, strMessage));
+
+        // Create new message
+        GameObject message = Instantiate(m_MessagePrefab, m_Canvas.transform);
+        message.transform.position += new Vector3(0, m_messageYOffset);
+        message.GetComponent<Message>().setMessage(strUser, strMessage, "4:00 AM", null);
+
+        // Decrement message offset position
+        m_messageYOffset -= m_messageHeight;
     }
 }
