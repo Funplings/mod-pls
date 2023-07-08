@@ -16,6 +16,7 @@ public class ChannelManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI m_CurrentChannelHeader;
 
     private bool m_dayStarted = false;
+    private float m_timeStarted = 0;
 
     public static ChannelManager Instance { get; private set; }
     private void Awake()
@@ -34,6 +35,32 @@ public class ChannelManager : MonoBehaviour
     public void Start()
     {
         SelectChannel(m_selectedChannel.getChannelName());
+        m_timeStarted = Time.time;
+    }
+
+    public void GetPlayerMessage(string strInput)
+    {
+        if (strInput == "yes")
+        {
+            ChannelManager.Instance.StartDay();
+        }
+
+        m_selectedChannel.PushMessage(GameManager.instance.m_strPlayer, strInput);
+    }
+
+    public string CurrentGameTime()
+    {
+        float dSec = Time.time - m_timeStarted;
+
+        float hours = 13 + (dSec / Constants.REAL_SECOND_TO_GAME_MINUTE_RATIO) / 60; // Add 13 because we start our days at 1 PM
+
+        if (hours >= 24)
+        {
+            hours -= 24;
+        }
+
+        System.TimeSpan span = System.TimeSpan.FromHours(hours);
+        return new System.DateTime().Add(span).ToShortTimeString();
     }
 
     public void SelectChannel(string channelName)
@@ -60,6 +87,7 @@ public class ChannelManager : MonoBehaviour
     public void StartDay()
     {
         this.m_dayStarted = true;
+        m_timeStarted = Time.time;
     }
 
     /* GETTERS */

@@ -78,7 +78,7 @@ public class Channel : MonoBehaviour
         }
     }
 
-    void PushMessage(string strUser, string strMessage)
+    public void PushMessage(string strUser, string strMessage)
     {
         // Create new message
         GameObject message = Instantiate(m_MessagePrefab, m_MessagesContainer.transform);
