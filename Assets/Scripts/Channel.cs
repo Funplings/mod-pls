@@ -6,17 +6,20 @@ public class Channel : MonoBehaviour
 {
     [Header("Prefabs")]
     [SerializeField]
-    private GameObject m_Canvas;
-    [SerializeField]
     private GameObject m_MessagePrefab;
 
     [Header("References")]
     [SerializeField]
     private ChatscriptData[] m_dailyChatscripts = new ChatscriptData[Constants.DAYS];
+    [SerializeField]
+    private GameObject m_MessagesContainer;
+    [SerializeField]
+    private GameObject m_ChannelButtonObject;
 
     [Header("Configuration")]
     [SerializeField] private float m_secDelayBase = 1;
     [SerializeField] private float m_messageHeight = 60f;
+    [SerializeField] private string m_ChannelName;
 
     private ChatscriptData m_chatscriptCurrent;
     private int m_iCommand = 0;
@@ -64,17 +67,34 @@ public class Channel : MonoBehaviour
     void PushMessage(string strUser, string strMessage)
     {
         // Shift message container upwards by one message height
-        m_Canvas.transform.position += new Vector3(0, m_messageHeight);
-
-        // Testing
-        print(string.Format("User {0} in Channel {1} sent message \"{2}\"", strUser, this.name, strMessage));
+        m_MessagesContainer.transform.position += new Vector3(0, m_messageHeight);
 
         // Create new message
-        GameObject message = Instantiate(m_MessagePrefab, m_Canvas.transform);
+        GameObject message = Instantiate(m_MessagePrefab, m_MessagesContainer.transform);
         message.transform.position += new Vector3(0, m_messageYOffset);
         message.GetComponent<Message>().setMessage(strUser, strMessage, "4:00 AM", null);
 
         // Decrement message offset position
         m_messageYOffset -= m_messageHeight;
+    }
+
+    public void selectChannel()
+    {
+        m_MessagesContainer.SetActive(true);
+    }
+
+    public void deselectChannel()
+    {
+        m_MessagesContainer.SetActive(false);
+    }
+
+    public string getChannelName()
+    {
+        return m_ChannelName;
+    }
+
+    public GameObject getChannelButtonObject()
+    {
+        return m_ChannelButtonObject;
     }
 }
