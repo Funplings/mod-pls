@@ -18,7 +18,6 @@ public class Channel : MonoBehaviour
 
     [Header("Configuration")]
     [SerializeField] private float m_secDelayBase = 1;
-    [SerializeField] private float m_messageHeight = 60f;
     [SerializeField] private string m_ChannelName;
     [SerializeField] private List<Rule> m_ChannelRules;
 
@@ -26,8 +25,6 @@ public class Channel : MonoBehaviour
     private int m_iCommand = 0;
 
     private float m_timeNextCommand = 0;
-
-    private float m_messageYOffset = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -67,16 +64,9 @@ public class Channel : MonoBehaviour
 
     void PushMessage(string strUser, string strMessage)
     {
-        // Shift message container upwards by one message height
-        m_MessagesContainer.transform.position += new Vector3(0, m_messageHeight);
-
         // Create new message
         GameObject message = Instantiate(m_MessagePrefab, m_MessagesContainer.transform);
-        message.transform.position += new Vector3(0, m_messageYOffset);
         message.GetComponent<Message>().setMessage(strUser, strMessage, "4:00 AM", null, m_ChannelName);
-
-        // Decrement message offset position
-        m_messageYOffset -= m_messageHeight;
     }
 
     public void selectChannel()

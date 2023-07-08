@@ -25,6 +25,10 @@ public class ChannelManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        SelectChannel("general");
+    }
 
     public void SelectChannel(string channelName)
     {
@@ -37,7 +41,8 @@ public class ChannelManager : MonoBehaviour
                 channel.selectChannel();
                 channel.getChannelButtonObject().GetComponent<ChannelButton>().setButtonAsSelected();
 
-            } else
+            }
+            else
             {
                 channel.deselectChannel();
                 channel.getChannelButtonObject().GetComponent<ChannelButton>().setButtonAsUnselected();
