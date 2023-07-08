@@ -9,10 +9,26 @@ public class ChannelManager : MonoBehaviour
     public List<Channel> m_Channels = new List<Channel>();
 
     [SerializeField]
-    public Channel m_selectedChannel;
+    private Channel m_selectedChannel;
 
-    public void selectChannel(string channelName)
+    public static ChannelManager Instance { get; private set; }
+    private void Awake()
     {
+        // If there is an instance, and it's not me, delete myself.
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
+
+    public void SelectChannel(string channelName)
+    {
+        Debug.Log("Selecting channel");
         foreach (Channel channel in m_Channels)
         {
             if (channel.getChannelName().Equals(channelName))
@@ -27,6 +43,13 @@ public class ChannelManager : MonoBehaviour
                 channel.getChannelButtonObject().GetComponent<ChannelButton>().setButtonAsUnselected();
             }
         }
+        Debug.Log("Bout to Set Text");
+        RulesDisplay.Instance.SetText();
+    }
+
+    public Channel GetSelectedChannel()
+    {
+        return m_selectedChannel;
     }
 
 }

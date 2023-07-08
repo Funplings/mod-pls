@@ -6,12 +6,12 @@ using UnityEngine.UI;
 
 public class Message : MonoBehaviour
 {
-    private string m_username { get; set; }
-    private string m_message { get; set; }
-    private string m_timestamp { get; set; }
-    private Sprite m_profilePicture { get; set; }
+    private string m_username;
+    private string m_message;
+    private string m_timestamp;
+    private Sprite m_profilePicture;
 
-    private string m_channelName { get; set; }
+    private string m_channelName;
 
     [SerializeField]
     private TextMeshProUGUI m_usernameText;
@@ -29,7 +29,7 @@ public class Message : MonoBehaviour
     [SerializeField]
     private Button m_clickable;
 
-    private bool violatesRules;
+    private bool m_violatesRules;
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +45,7 @@ public class Message : MonoBehaviour
         this.m_timestamp = timestamp;
         this.m_profilePicture = profilePicture;
         this.m_channelName = channelName;
+        validateMessage();
         renderMessage();
     }
 
@@ -58,14 +59,28 @@ public class Message : MonoBehaviour
 
     void onClickMessage()
     {
-        Debug.Log("clicked");
+        if (m_violatesRules)
+        {
+            Debug.Log("This message violated the rules");
+        } else
+        {
+            Debug.Log("This message is fine");
+        }
         Utils.setImageAlpha(m_clickable.image, 255);
     }
 
     void validateMessage()
     {
-        
+        m_violatesRules = RulesManager.Instance.ValidateMessage(this);
     }
 
+    public string GetChannelName()
+    {
+        return m_channelName;
+    }
 
+    public string GetMessage()
+    {
+        return m_message;
+    }
 }

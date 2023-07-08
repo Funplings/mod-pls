@@ -20,6 +20,7 @@ public class Channel : MonoBehaviour
     [SerializeField] private float m_secDelayBase = 1;
     [SerializeField] private float m_messageHeight = 60f;
     [SerializeField] private string m_ChannelName;
+    [SerializeField] private List<Rule> m_ChannelRules;
 
     private ChatscriptData m_chatscriptCurrent;
     private int m_iCommand = 0;
@@ -96,5 +97,11 @@ public class Channel : MonoBehaviour
     public GameObject getChannelButtonObject()
     {
         return m_ChannelButtonObject;
+    }
+
+    public List<Rule> getChannelRules()
+    {
+        Debug.Log("HOO AH");
+        return m_ChannelRules;
     }
 }
