@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
+using TMPro;
 
 public class Channel : MonoBehaviour
 {
@@ -56,6 +57,13 @@ public class Channel : MonoBehaviour
 
     void SendMessage(MessageCommand messageCommand)
     {
+        if (!gameObject.transform.GetChild(0).gameObject.activeSelf)
+        {
+            // Mark unread
+
+            m_ChannelButtonObject.GetComponent<ChannelButton>().SetUnread();
+        }
+
         PushMessage(messageCommand.m_strUser, ChannelManager.Instance.SpriteForUser(messageCommand.m_strUser), messageCommand.m_strMessage);
     }
 

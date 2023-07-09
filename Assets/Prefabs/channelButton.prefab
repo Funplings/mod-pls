@@ -215,6 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ChannelName: general
   m_Button: {fileID: 3175444360724729485}
+  m_tmpText: {fileID: 4483854104690667947}
 --- !u!95 &3216262515609353832
 Animator:
   serializedVersion: 5
@@ -311,7 +312,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292598747
+    rgba: 3657433087
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3

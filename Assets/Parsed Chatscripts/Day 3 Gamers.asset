@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b262de34474c140a67062435fd0294, type: 3}
+  m_Name: Day 3 Gamers
+  m_EditorClassIdentifier: 
+  m_messages:
+  - rid: 1750842734973551455
+  - rid: 1750842734973551456
+  - rid: 1750842734973551457
+  - rid: 1750842734973551458
+  - rid: 1750842734973551459
+  - rid: 1750842734973551460
+  - rid: 1750842734973551461
+  - rid: 1750842734973551462
+  - rid: 1750842734973551463
+  - rid: 1750842734973551464
+  - rid: 1750842734973551465
+  - rid: 1750842734973551466
+  - rid: 1750842734973551467
+  - rid: 1750842734973551468
+  - rid: 1750842734973551469
+  - rid: 1750842734973551470
+  - rid: 1750842734973551471
+  - rid: 1750842734973551472
+  - rid: 1750842734973551473
+  - rid: 1750842734973551474
+  - rid: 1750842734973551475
+  - rid: 1750842734973551476
+  - rid: 1750842734973551477
+  - rid: 1750842734973551478
+  - rid: 1750842734973551479
+  - rid: 1750842734973551480
+  - rid: 1750842734973551481
+  - rid: 1750842734973551482
+  - rid: 1750842734973551483
+  references:
+    version: 2
+    RefIds:
+    - rid: 1750842734973551455
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Elite_Orphanzo
+        m_strMessage: I just notic3d th@t th3 upd@t3 from y3st3rd@y ch@ng3d Orph@nzo
+          sup3r @ littl3
+        m_hourSent: 13
+    - rid: 1750842734973551456
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Boo_Main_hater
+        m_strMessage: What could th3y h@v3 ch@ng3d in Orph@nzo @tt@ck th@t would
+          actually m@tt3r
+        m_hourSent: 13.571428
+    - rid: 1750842734973551457
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Elite_Orphanzo
+        m_strMessage: Th3y m@d3 th3 S@lt mor3 visibl3 in th3 fully s3@son3d sup3r
+        m_hourSent: 14.142858
+    - rid: 1750842734973551458
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: parentididnothingwrong
+        m_strMessage: I need to s33 this mys3lf
+        m_hourSent: 14.714286
+    - rid: 1750842734973551459
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: parentididnothingwrong
+        m_strMessage: Your right @nd I think it m@d3 th3 hitbox for it 3v3n bigg3r
+        m_hourSent: 15.285714
+    - rid: 1750842734973551460
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Defender_of_boo
+        m_strMessage: It looks lik3 th3y upd@t3d @ll th3 sup3rs just @ littl3 bit
+          th3 s@lt on3s mor3 th@n th3 oth3rs
+        m_hourSent: 15.857143
+    - rid: 1750842734973551461
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Elite_Orphanzo
+        m_strMessage: OMG th3y m@d3 th3 pl@stic mor3 of @ gr33n color now th3y c@n
+          b3 dodg3d 3@si3r. NOOOOO my @dv@nt@g3 is slipping @w@y
+        m_hourSent: 16.428572
+    - rid: 1750842734973551462
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: PeerOfShakespeare
+        m_strMessage: "Why haven\u2019t you all simply read the patch notes. Perhaps
+          then you wouldn\u2019t be so surprised about this. Their texts are always
+          eloquently written after all."
+        m_hourSent: 17
+    - rid: 1750842734973551463
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Boo_Main_hater
+        m_strMessage: "Just op3n3d up th3 p@tch not3s @nd th3y ch@ng3d @ lot mor3
+          th@t i didn\u2019t notic3 3v3n @ft3r pl@ying th3 g@m3 @ll d@y y3st3rd@y"
+        m_hourSent: 17.571428
+    - rid: 1750842734973551464
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Defender_of_boo
+        m_strMessage: You pl@y3d @ll d@y!!!!!!
+        m_hourSent: 18.142857
+    - rid: 1750842734973551465
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Elite_Orphanzo
+        m_strMessage: "L3t m3 gu3ss you couldn\u2019t stop until you r@nk3d up"
+        m_hourSent: 18.714287
+    - rid: 1750842734973551466
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Boo_Main_hater
+        m_strMessage: I r@n into too m@ny boo m@ins @nd @lmost d3-r@nk3d so of cours3
+          i h@d to @t l3@st g3t b@ck up to wh3r3 i st@rt3d
+        m_hourSent: 19.285713
+    - rid: 1750842734973551467
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: parentididnothingwrong
+        m_strMessage: Yes my garlic @tt@cks look so much cooler now, t@st3 th3 spores
+          of my garlic powder
+        m_hourSent: 19.857143
+    - rid: 1750842734973551468
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Elite_Orphanzo
+        m_strMessage: "G@rlic do3sn\u2019t r3l3@s3 spor3s dud3 @nd i c@n still count3r
+          you with my cumin whip @tt@ck"
+        m_hourSent: 20.428572
+    - rid: 1750842734973551469
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Defender_of_boo
+        m_strMessage: "C@n\u2019t w@it to fight you with @ll this n3w knowl3dg3 m@yb3
+          my win r@t3 will incr3@s3"
+        m_hourSent: 21
+    - rid: 1750842734973551470
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Elite_Orphanzo
+        m_strMessage: You have got @ long way to go still
+        m_hourSent: 21.571428
+    - rid: 1750842734973551471
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Defender_of_boo
+        m_strMessage: "@ tru3 \u201Cc@n\u2019t h@v3 shit in d3troit\u201D mom3nt"
+        m_hourSent: 22.142857
+    - rid: 1750842734973551472
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Boo_Main_hater
+        m_strMessage: "H3y no spoil3rs som3 p3opl3 h3r3 h@v3n\u2019t gott3n th@t
+          f@r y3t\r\n\r\n\r\nDefender _of_boo: So i c@n\u2019t quot3 th3 show but
+          3v3ryon3 c@n s@y stuff lik3 fri3s?"
+        m_hourSent: 22.714287
+    - rid: 1750842734973551473
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Elite_Orphanzo
+        m_strMessage: W3ll to b3 f@ir th3 whol3 g@m3 is sort@ @ spoil3r so i think
+          on3 quot3 won't hurt
+        m_hourSent: 23.285713
+    - rid: 1750842734973551474
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: parentididnothingwrong
+        m_strMessage: Y3@h th3r3 @r3 so m@ny spoil3rs in th3 @rc@d3d mod3, th3 sup3rs,
+          @nd 3v3n som3 of th3 b@sic mov3s
+        m_hourSent: 23.857143
+    - rid: 1750842734973551475
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Boo_Main_hater
+        m_strMessage: Wow th3 story mod3 r3@lly follows th3 show lik3 @lmost to @
+          T
+        m_hourSent: 24.428572
+    - rid: 1750842734973551476
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Klompo_enjoyer
+        m_strMessage: "I wouldn\u2019t know im @ story skipp3r just giv3 m3 th3 r3sourc3s"
+        m_hourSent: 25
+    - rid: 1750842734973551477
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Boo_Main_hater
+        m_strMessage: Wh@t? But if f33ls lik3 w3 c@n s33 how th3y b3@t c3rt@in guys
+          offscr33n h3r3
+        m_hourSent: 25.571428
+    - rid: 1750842734973551478
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Klompo_enjoyer
+        m_strMessage: "I pl@y l3ss for th3 story @nd mor3 for th3 cool mov3 n@m3s
+          @nd t3@m combo\u2019s"
+        m_hourSent: 26.142857
+    - rid: 1750842734973551479
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: vroomster99
+        m_strMessage: Y3@h only using 3 ch@r@ct3rs @nd d3ciding to try to go burst
+          d@m@g3 or sust@in is @ h@rd choic3 3sp3ci@lly with so m@ny ch@r@ct3rs
+        m_hourSent: 26.714287
+    - rid: 1750842734973551480
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Boo_Main_hater
+        m_strMessage: '@w m@n its lik3 w@tching th3 show for th3 first tim3 but lik3
+          th3 dir3ctor put th3r3 own littl3 spin on stuff'
+        m_hourSent: 27.285713
+    - rid: 1750842734973551481
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: vroomster99
+        m_strMessage: I do lik3 th3 3v3nts w@y mor3 3sp3ci@lly potatoes gon3 @wry
+        m_hourSent: 27.857143
+    - rid: 1750842734973551482
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Klompo_enjoyer
+        m_strMessage: "I lik3 th3 how\u2019d th3y b3com3 fries 3v3nt"
+        m_hourSent: 28.428572
+    - rid: 1750842734973551483
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Boo_Main_hater
+        m_strMessage: I gu3ss i gott@ w@it for this non c@nnon stuff to s33 wh@t
+          @ll th3 hyp3 is @bout
+        m_hourSent: 29
