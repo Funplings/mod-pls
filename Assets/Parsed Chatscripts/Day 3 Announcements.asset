@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: Day 3 Announcements
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842743379984696
-  - rid: 1750842743379984697
-  - rid: 1750842743379984698
-  - rid: 1750842743379984699
-  - rid: 1750842743379984700
-  - rid: 1750842743379984701
-  - rid: 1750842743379984702
-  - rid: 1750842743379984703
-  - rid: 1750842743379984704
+  - rid: 2059439374187365210
+  - rid: 2059439374187365211
+  - rid: 2059439374187365212
+  - rid: 2059439374187365213
+  - rid: 2059439374187365214
+  - rid: 2059439374187365215
+  - rid: 2059439374187365216
+  - rid: 2059439374187365217
+  - rid: 2059439374187365218
   references:
     version: 2
     RefIds:
-    - rid: 1750842743379984696
+    - rid: 2059439374187365210
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: Did you catch that finale last night? Crazy stuff
         m_hourSent: 13
-    - rid: 1750842743379984697
+    - rid: 2059439374187365211
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -40,49 +40,49 @@ MonoBehaviour:
         m_strMessage: "Anyways we\u2019ve made the #finale channel to keep spoilers
           out the other channels"
         m_hourSent: 15
-    - rid: 1750842743379984698
+    - rid: 2059439374187365212
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: We require that everyone type in ALL CAPS in that channel
         m_hourSent: 17
-    - rid: 1750842743379984699
+    - rid: 2059439374187365213
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: because that finale was SO HYPE
         m_hourSent: 19
-    - rid: 1750842743379984700
+    - rid: 2059439374187365214
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: "And conversely we won\u2019t allow exclamation marks"
         m_hourSent: 21
-    - rid: 1750842743379984701
+    - rid: 2059439374187365215
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: Out of respect for Klompo Jr
         m_hourSent: 23
-    - rid: 1750842743379984702
+    - rid: 2059439374187365216
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: R.I.P.
         m_hourSent: 25
-    - rid: 1750842743379984703
+    - rid: 2059439374187365217
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: "Alright then! Type \u201Cyes\u201D to get started"
         m_hourSent: 27
-    - rid: 1750842743379984704
+    - rid: 2059439374187365218
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
