@@ -62,11 +62,16 @@ public class Message : MonoBehaviour
 
         // Auto-delete
 
-        if (username == GameManager.instance.m_strPlayer && m_violatesRules)
+        if (username == GameManager.instance.m_strPlayer)
         {
-            ChannelManager.Instance.Delete(false);
-            button.interactable = false;
-            m_timestampText.text = "<Deleted by Jr_lover<3>";
+            if (m_violatesRules)
+            {
+                ChannelManager.Instance.Delete(false);
+                button.interactable = false;
+                m_timestampText.text = "<Deleted by Jr_lover<3>";
+            }
+
+            m_usernameText.color = Color.red;
         }
     }
 
@@ -98,11 +103,12 @@ public class Message : MonoBehaviour
         button.interactable = false;
 
         // Set label
-        string label; 
+        string label;
         if (ChannelManager.Instance.m_day == 4)
         {
             label = "Banned by";
-        } else
+        }
+        else
         {
             label = "Deleted by";
         }
@@ -113,11 +119,13 @@ public class Message : MonoBehaviour
             if (ChannelManager.Instance.m_day == 4)
             {
                 AudioManager.instance.PlaySFX("Ban_Message");
-            } else
+            }
+            else
             {
                 AudioManager.instance.PlaySFX("Delete_Message");
             }
-        } else
+        }
+        else
         {
             AudioManager.instance.PlaySFX("Bad_Delete");
         }

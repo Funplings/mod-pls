@@ -105,7 +105,7 @@ public class ChannelManager : MonoBehaviour
 
     public void GetPlayerMessage(string strInput)
     {
-        if (IsTimeFrozen() && strInput.Contains("yes"))
+        if (IsTimeFrozen() && strInput.ToLower().Contains("yes"))
         {
             ResumeTime();
         }
