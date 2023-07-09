@@ -25,12 +25,13 @@ public class ChannelManager : MonoBehaviour
 
     [Header("Scene Components")]
     [SerializeField] private TextMeshProUGUI m_CurrentChannelHeader;
+    [SerializeField] private TextMeshProUGUI m_CurrentChannelRule;
     [SerializeField] private Canvas m_canvas;
     [SerializeField] private DayEnd m_dayEnd;
 
 
     private float m_timeDayStart = 0;   // 0 = day hasn't started
-    private int m_day = 0;
+    public int m_day = 0;
 
     private int m_cMistake = 0;
     private int m_cCorrect = 0;
@@ -185,6 +186,24 @@ public class ChannelManager : MonoBehaviour
             }
         }
         m_CurrentChannelHeader.text = string.Format("#{0}", m_selectedChannel.getChannelName());
+
+
+        List<Rule> channelRules = m_selectedChannel.getChannelRules();
+
+        if (channelRules.Count == 1)
+        {
+            m_CurrentChannelRule.text = channelRules[0].getDescription();
+        }
+        else if (channelRules.Count == 2)
+        {
+            throw new System.ArgumentException("More than 1 rule for channel!");
+        }
+        else
+        {
+            m_CurrentChannelRule.text = "";
+        }
+
+
         RulesDisplay.Instance.SetText();
     }
 

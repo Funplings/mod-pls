@@ -38,7 +38,6 @@ public class Message : MonoBehaviour
     void Start()
     {
         button.onClick.AddListener(onClickMessage);
-        renderMessage();
     }
 
     public void setMessage(string username, string message, string timestamp, Sprite profilePicture, string channelName)
@@ -51,6 +50,15 @@ public class Message : MonoBehaviour
         validateMessage();
         renderMessage();
         AudioManager.instance.PlaySFX("New_Message");
+
+        // Auto-delete
+
+        if (username == GameManager.instance.m_strPlayer && m_violatesRules)
+        {
+            ChannelManager.Instance.Delete(false);
+            button.interactable = false;
+            m_timestampText.text = "<Deleted by Jr_lover<3>";
+        }
     }
 
     void renderMessage()

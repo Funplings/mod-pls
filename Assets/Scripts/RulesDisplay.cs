@@ -28,22 +28,24 @@ public class RulesDisplay : MonoBehaviour
         m_Text = "";
         List<Rule> universalRules = RulesManager.Instance.GetUniversalRules();
 
-        List<Rule> channelRules = new List<Rule>();
-        Channel selectedChannel = ChannelManager.Instance.GetSelectedChannel();
-        if (selectedChannel != null)
+        // List<Rule> channelRules = new List<Rule>();
+        // Channel selectedChannel = ChannelManager.Instance.GetSelectedChannel();
+        // if (selectedChannel != null)
+        // {
+        //     channelRules = selectedChannel.getChannelRules();
+        // }
+
+        for (int iRule = 0; iRule < universalRules.Count; iRule++)
         {
-            channelRules = selectedChannel.getChannelRules();
+            if (iRule > ChannelManager.Instance.m_day) break;
+
+            m_Text += string.Format("{0} \n\n", universalRules[iRule].getDescription());
         }
 
-        foreach (Rule rule in universalRules)
-        {
-            m_Text += string.Format("{0} \n\n", rule.getDescription());
-        }
-
-        foreach (Rule rule in channelRules)
-        {
-            m_Text += string.Format("(#{0}) {1} \n\n", rule.getChannel(), rule.getDescription());
-        }
+        // foreach (Rule rule in channelRules)
+        // {
+        //     m_Text += string.Format("(#{0}) {1} \n\n", selectedChannel.getChannelName(), rule.getDescription());
+        // }
 
         m_TextMesh.text = m_Text;
     }

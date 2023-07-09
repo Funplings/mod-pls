@@ -31,14 +31,18 @@ public class RulesManager : MonoBehaviour
     public bool ValidateMessage(Message message)
     {
         // Check universal rules
-        foreach (Rule rule in m_universalRules)
+
+        for (int iRule = 0; iRule < m_universalRules.Count; iRule++)
         {
-            if (rule.CheckIfMessageViolatesRule(message)) return true;
+            if (iRule > ChannelManager.Instance.m_day) break;
+
+            if (m_universalRules[iRule].CheckIfMessageViolatesRule(message)) return true;
         }
 
         // Check channel specific rules
         List<Rule> channelRules;
-        if (m_channelRules.TryGetValue(message.GetChannelName(), out channelRules)) {
+        if (m_channelRules.TryGetValue(message.GetChannelName(), out channelRules))
+        {
             foreach (Rule rule in channelRules)
             {
                 if (rule.CheckIfMessageViolatesRule(message)) return true;

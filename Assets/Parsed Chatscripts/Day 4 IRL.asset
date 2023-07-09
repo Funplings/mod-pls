@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Day 4 IRL
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842735002386707
+  - rid: 1750842738502271440
   references:
     version: 2
     RefIds:
-    - rid: 1750842735002386707
+    - rid: 1750842738502271440
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
