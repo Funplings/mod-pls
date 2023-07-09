@@ -83,7 +83,7 @@ monstermons: Why should i use please if you dont have to
 bugz_bunny: No.
 
 
-Bugz_bunny: Im a mod, you guys arent, show respect and use please
+bugz_bunny: Im a mod, you guys arent, show respect and use please
 
 
 [Hour 3]
@@ -97,10 +97,10 @@ monstermons: Gimme mods now
 [Hour 4]
 
 
-Bugz_bunny: No.
+bugz_bunny: No.
 
 
-Bugz_bunny: How about i mute you?
+bugz_bunny: How about i mute you?
 
 
 [Hour 4.2]

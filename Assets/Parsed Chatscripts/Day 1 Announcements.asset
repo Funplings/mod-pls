@@ -12,7 +12,94 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b262de34474c140a67062435fd0294, type: 3}
   m_Name: Day 1 Announcements
   m_EditorClassIdentifier: 
-  m_messages: []
+  m_messages:
+  - rid: 1750842734439826172
+  - rid: 1750842734439826173
+  - rid: 1750842734439826174
+  - rid: 1750842734439826175
+  - rid: 1750842734439826176
+  - rid: 1750842734439826177
+  - rid: 1750842734439826178
+  - rid: 1750842734439826179
+  - rid: 1750842734439826180
+  - rid: 1750842734439826181
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 1750842734439826172
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: Hey nice job on your first day kid!
+        m_hourSent: 13
+    - rid: 1750842734439826173
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "Anyways our server is getting bigger so we\u2019ve made a
+          new channel"
+        m_hourSent: 14.777778
+    - rid: 1750842734439826174
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "It\u2019s called #gamers and its for the people most oppressed
+          group in our modern society"
+        m_hourSent: 16.555555
+    - rid: 1750842734439826175
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "In the #gamers channel we have another rule: you must talk
+          in L33t sp3@k (all e\u2019s must be replaced with 3\u2019s and all a\u2019s
+          must be replaced with @\u2019s)"
+        m_hourSent: 18.333334
+    - rid: 1750842734439826176
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: If you see anyone typing normally, delete their message
+        m_hourSent: 20.11111
+    - rid: 1750842734439826177
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "We\u2019ve also added a rule that every message much start
+          with a capital letter"
+        m_hourSent: 21.88889
+    - rid: 1750842734439826178
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: Because people really need to learn how to type properly
+        m_hourSent: 23.666668
+    - rid: 1750842734439826179
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "oh and one more thing: mods are better than normal people
+          so the rules don\u2019t apply to them!"
+        m_hourSent: 25.444445
+    - rid: 1750842734439826180
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "Mods have red usernames. dont delete a mod\u2019s message
+          even if they break the rules"
+        m_hourSent: 27.222221
+    - rid: 1750842734439826181
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "Alright thats it! Type \u201Cyes\u201D to get started"
+        m_hourSent: 29

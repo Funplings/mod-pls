@@ -12,7 +12,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b262de34474c140a67062435fd0294, type: 3}
   m_Name: Day 0 Announcements
   m_EditorClassIdentifier: 
-  m_messages: []
+  m_messages:
+  - rid: 1750842734439826313
+  - rid: 1750842734439826314
+  - rid: 1750842734439826315
+  - rid: 1750842734439826316
+  - rid: 1750842734439826317
+  - rid: 1750842734439826318
+  - rid: 1750842734439826319
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 1750842734439826313
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: Hello!!!! Congrats on being a mod
+        m_hourSent: 13
+    - rid: 1750842734439826314
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "If it\u2019s your first time it\u2019s easy"
+        m_hourSent: 15.666667
+    - rid: 1750842734439826315
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "Rn there is only one rule: you can\u2019t say potato (don\u2019t
+          ask why it\u2019s a sensitive subject)"
+        m_hourSent: 18.333334
+    - rid: 1750842734439826316
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: If someone breaks the rule, click on their message to delete
+          it
+        m_hourSent: 21
+    - rid: 1750842734439826317
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "Make sure to enforce the rules properly! At the end of the
+          day we\u2019ll figure out how many violating messages you missed and how
+          many you erroneously deleted"
+        m_hourSent: 23.666668
+    - rid: 1750842734439826318
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: If you make too many mistakes, unfortunately we will have to
+          remove ur modding privileges :(
+        m_hourSent: 26.333332
+    - rid: 1750842734439826319
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "That's it!!! If you\u2019re ready to start type \u201Cyes\u201D
+          in this channel"
+        m_hourSent: 29

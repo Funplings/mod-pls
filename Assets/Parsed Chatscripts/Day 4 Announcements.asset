@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b262de34474c140a67062435fd0294, type: 3}
+  m_Name: Day 4 Announcements
+  m_EditorClassIdentifier: 
+  m_messages:
+  - rid: 1750842734439826304
+  - rid: 1750842734439826305
+  - rid: 1750842734439826306
+  - rid: 1750842734439826307
+  - rid: 1750842734439826308
+  - rid: 1750842734439826309
+  - rid: 1750842734439826310
+  references:
+    version: 2
+    RefIds:
+    - rid: 1750842734439826304
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: Ok you know what
+        m_hourSent: 13
+    - rid: 1750842734439826305
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "I\u2019ve had enough of this shit"
+        m_hourSent: 15.666667
+    - rid: 1750842734439826306
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: Being a mod sucks
+        m_hourSent: 18.333334
+    - rid: 1750842734439826307
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "Fuck it. I\u2019m giving you admin privileges"
+        m_hourSent: 21
+    - rid: 1750842734439826308
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: When a mod violates a rule you can ban them now
+        m_hourSent: 23.666668
+    - rid: 1750842734439826309
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: This is for @SEND_ME_SPUDS
+        m_hourSent: 26.333332
+    - rid: 1750842734439826310
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "Type \u201Cyes\u201D and start banning these stupid mods"
+        m_hourSent: 29

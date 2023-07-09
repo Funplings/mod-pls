@@ -64,7 +64,7 @@ public class ChannelManager : MonoBehaviour
 
     public Sprite SpriteForUser(string strUser)
     {
-        return m_allUsers.m_users.Find(user => user.m_strName == strUser).m_spriteProfile;
+        return m_allUsers.User(strUser).m_spriteProfile;
     }
 
     public bool IsTimeFrozen()

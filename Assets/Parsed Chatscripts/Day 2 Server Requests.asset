@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b262de34474c140a67062435fd0294, type: 3}
+  m_Name: Day 2 Server Requests
+  m_EditorClassIdentifier: 
+  m_messages:
+  - rid: 1750842734439826320
+  - rid: 1750842734439826321
+  - rid: 1750842734439826322
+  - rid: 1750842734439826323
+  - rid: 1750842734439826324
+  - rid: 1750842734439826325
+  - rid: 1750842734439826326
+  - rid: 1750842734439826327
+  - rid: 1750842734439826328
+  - rid: 1750842734439826329
+  - rid: 1750842734439826330
+  - rid: 1750842734439826331
+  - rid: 1750842734439826332
+  - rid: 1750842734439826333
+  - rid: 1750842734439826334
+  - rid: 1750842734439826335
+  - rid: 1750842734439826336
+  - rid: 1750842734439826337
+  - rid: 1750842734439826338
+  - rid: 1750842734439826339
+  - rid: 1750842734439826340
+  - rid: 1750842734439826341
+  - rid: 1750842734439826342
+  - rid: 1750842734439826343
+  - rid: 1750842734439826344
+  - rid: 1750842734439826345
+  references:
+    version: 2
+    RefIds:
+    - rid: 1750842734439826320
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: superbeast
+        m_strMessage: Please give me mod perms
+        m_hourSent: 13.055555
+    - rid: 1750842734439826321
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 13.111111
+    - rid: 1750842734439826322
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Lord_vidar_980
+        m_strMessage: Please give me mod perms
+        m_hourSent: 13.166667
+    - rid: 1750842734439826323
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 13.222222
+    - rid: 1750842734439826324
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: lily_2_awesome
+        m_strMessage: Pleese give me mod perms
+        m_hourSent: 13.277778
+    - rid: 1750842734439826325
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 13.333333
+    - rid: 1750842734439826326
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Ilovehop
+        m_strMessage: Please give me mod perms
+        m_hourSent: 13.388889
+    - rid: 1750842734439826327
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 13.444445
+    - rid: 1750842734439826328
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: anime_lover_18
+        m_strMessage: Dont you need to say please too i thought theres no exceptions
+        m_hourSent: 20.025
+    - rid: 1750842734439826329
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: lol im a mod so no
+        m_hourSent: 20.05
+    - rid: 1750842734439826330
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: anime_lover_18
+        m_strMessage: Also perms pls
+        m_hourSent: 20.075
+    - rid: 1750842734439826331
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 20.1
+    - rid: 1750842734439826332
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: stanzos
+        m_strMessage: 'Buy my fedoras: fedorapleasepleaseplease.con'
+        m_hourSent: 20.125
+    - rid: 1750842734439826333
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 20.150002
+    - rid: 1750842734439826334
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Feraree_sf90
+        m_strMessage: Please give me mod perms
+        m_hourSent: 20.175001
+    - rid: 1750842734439826335
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 20.54
+    - rid: 1750842734439826336
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Ilovehop
+        m_strMessage: Please give me mod perms
+        m_hourSent: 20.58
+    - rid: 1750842734439826337
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 20.62
+    - rid: 1750842734439826338
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: lily_2_awesome
+        m_strMessage: Please give me mod perms
+        m_hourSent: 20.66
+    - rid: 1750842734439826339
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 21.05
+    - rid: 1750842734439826340
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: monstermons
+        m_strMessage: Why should i use please if you dont have to
+        m_hourSent: 26.25
+    - rid: 1750842734439826341
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 26.5
+    - rid: 1750842734439826342
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: Im a mod, you guys arent, show respect and use please
+        m_hourSent: 26.75
+    - rid: 1750842734439826343
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: monstermons
+        m_strMessage: Gimme mods now
+        m_hourSent: 27.35
+    - rid: 1750842734439826344
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: No.
+        m_hourSent: 28.066668
+    - rid: 1750842734439826345
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: bugz_bunny
+        m_strMessage: How about i mute you?
+        m_hourSent: 28.133333

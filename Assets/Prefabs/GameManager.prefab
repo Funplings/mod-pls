@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34bf0109c8b9ee04484d8aa7576e0211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_strPlayer: Caillou
+  m_spritePlayer: {fileID: 0}
 --- !u!114 &4244457024718686404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,7 +60,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxChannelCount: 2
-  sfxList: []
+  sfxList:
+  - name: New_Message
+    clip: {fileID: 8300000, guid: 0575fd9eccba09747bd26c0772f95c2d, type: 3}
+    volume: 0.05
+  - name: Delete_Message
+    clip: {fileID: 8300000, guid: 34ae71e1221803441926430bdfe895f6, type: 3}
+    volume: 0.05
   musicList:
   - name: biden
     firstPass: {fileID: 8300000, guid: 7de30fde3b2f05e47b92fab18d758e90, type: 3}

@@ -365,7 +365,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 4096
+  m_VerticalAlignment: 8192
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4151,8 +4151,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4483854104690667947, guid: d5274b28f0500634e90961cb41eaa48a, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483854104690667947, guid: d5274b28f0500634e90961cb41eaa48a, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483854104690667947, guid: d5274b28f0500634e90961cb41eaa48a, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483854104690667947, guid: d5274b28f0500634e90961cb41eaa48a, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 3647169379
+      value: 4292598747
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

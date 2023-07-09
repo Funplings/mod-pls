@@ -7,6 +7,11 @@ public class AllUserData : ScriptableObject
 {
     [SerializeField] 
     public List<UserData> m_users = new List<UserData>();
+
+    public UserData User(string strUser)
+    {
+        return m_users.Find(user => user.m_strName.ToLower() == strUser.ToLower());
+    }
 }
 
 [System.Serializable]

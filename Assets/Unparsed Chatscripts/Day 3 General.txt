@@ -110,7 +110,7 @@ lily_2_awesome: What?
 
 
 stanzos: i just
-Stanzos: You gotta buy this thing in bulk or it’s no fucking deal
+stanzos: You gotta buy this thing in bulk or it’s no fucking deal
 stanzos: I bought so many of these fucking fedoras
 stanzos: Also do you want any fake plastic meatballs?
 
@@ -127,7 +127,7 @@ stanzos: Thanks Lily!
 stanzos: No I just need to add a checkout system to the site
 
 
-Lily_2_awesome: wait i can’t check it out?
+lily_2_awesome: wait i can’t check it out?
 
 
 stanzos: Well no one’s ever bought one before so I never set up a payment system

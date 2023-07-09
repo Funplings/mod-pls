@@ -32,7 +32,7 @@ public static class ChatscriptParser
 
     private static bool IsUserReal(AllUserData allUserData, string strUser)
     {
-        return allUserData.m_users.Find(user => user.m_strName == strUser) != null;
+        return allUserData.User(strUser) != null;
     }
 
     private static void ParseChatscript(AllUserData allUserData, string strFile)

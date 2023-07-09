@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b262de34474c140a67062435fd0294, type: 3}
+  m_Name: Day 3 Announcements
+  m_EditorClassIdentifier: 
+  m_messages:
+  - rid: 1750842734439826232
+  - rid: 1750842734439826233
+  - rid: 1750842734439826234
+  - rid: 1750842734439826235
+  - rid: 1750842734439826236
+  - rid: 1750842734439826237
+  - rid: 1750842734439826238
+  - rid: 1750842734439826239
+  - rid: 1750842734439826240
+  references:
+    version: 2
+    RefIds:
+    - rid: 1750842734439826232
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: Did you catch that finale last night? Crazy stuff
+        m_hourSent: 13
+    - rid: 1750842734439826233
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "Anyways we\u2019ve made the #finale channel to keep spoilers
+          out the other channels"
+        m_hourSent: 15
+    - rid: 1750842734439826234
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: We require that everyone type in ALL CAPS in that channel
+        m_hourSent: 17
+    - rid: 1750842734439826235
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: because that finale was SO HYPE
+        m_hourSent: 19
+    - rid: 1750842734439826236
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "And conversely we won\u2019t allow exclamation marks"
+        m_hourSent: 21
+    - rid: 1750842734439826237
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: Out of respect for Klompo Jr
+        m_hourSent: 23
+    - rid: 1750842734439826238
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: R.I.P.
+        m_hourSent: 25
+    - rid: 1750842734439826239
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: Jr_lover<3
+        m_strMessage: "Alright then! Type \u201Cyes\u201D to get started"
+        m_hourSent: 27
+    - rid: 1750842734439826240
+      type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
+      data:
+        m_type: 0
+        m_strUser: vroomster99
+        m_strMessage: Why are you guys talking about this in the announcements channel
+        m_hourSent: 29
