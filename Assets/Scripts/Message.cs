@@ -50,6 +50,7 @@ public class Message : MonoBehaviour
         this.m_channelName = channelName;
         validateMessage();
         renderMessage();
+        AudioManager.instance.PlaySFX("New_Message");
     }
 
     void renderMessage()
@@ -65,6 +66,7 @@ public class Message : MonoBehaviour
         if (m_violatesRules)
         {
             Debug.Log("This message violated the rules");
+            AudioManager.instance.PlaySFX("Delete_Message");
         }
         else
         {
