@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public static GameManager instance { get; private set; }
 
     public string m_strPlayer = "Caillou";
-    public Sprite m_spritePlayer;
 
     private void Awake()
     {

@@ -1,4 +1,4 @@
-﻿[Hour 15]
+[Hour 15]
 superbeast: Please give me mod perms
 
 
@@ -74,13 +74,15 @@ bugz_bunny: No.
 
 
 [Hour 24.5]
-[Hour 3]
+[Hour 2]
 
 
 Feraree_sf90: Please give me mod permissions.
 
+[Hour 2.5]
+
+[Hour 4.5]
 
 bugz_bunny: No.
-
 
 [Hour 5]

@@ -13,266 +13,266 @@ MonoBehaviour:
   m_Name: Day 1 General
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842742045147899
-  - rid: 1750842742045147900
-  - rid: 1750842742045147901
-  - rid: 1750842742045147902
-  - rid: 1750842742045147903
-  - rid: 1750842742045147904
-  - rid: 1750842742045147905
-  - rid: 1750842742045147906
-  - rid: 1750842742045147907
-  - rid: 1750842742045147908
-  - rid: 1750842742045147909
-  - rid: 1750842742045147910
-  - rid: 1750842742045147911
-  - rid: 1750842742045147912
-  - rid: 1750842742045147913
-  - rid: 1750842742045147914
-  - rid: 1750842742045147915
-  - rid: 1750842742045147916
-  - rid: 1750842742045147917
-  - rid: 1750842742045147918
-  - rid: 1750842742045147919
-  - rid: 1750842742045147920
-  - rid: 1750842742045147921
-  - rid: 1750842742045147922
-  - rid: 1750842742045147923
-  - rid: 1750842742045147924
-  - rid: 1750842742045147925
-  - rid: 1750842742045147926
-  - rid: 1750842742045147927
-  - rid: 1750842742045147928
-  - rid: 1750842742045147929
-  - rid: 1750842742045147930
-  - rid: 1750842742045147931
-  - rid: 1750842742045147932
-  - rid: 1750842742045147933
-  - rid: 1750842742045147934
-  - rid: 1750842742045147935
+  - rid: 1750842742826336995
+  - rid: 1750842742826336996
+  - rid: 1750842742826336997
+  - rid: 1750842742826336998
+  - rid: 1750842742826336999
+  - rid: 1750842742826337000
+  - rid: 1750842742826337001
+  - rid: 1750842742826337002
+  - rid: 1750842742826337003
+  - rid: 1750842742826337004
+  - rid: 1750842742826337005
+  - rid: 1750842742826337006
+  - rid: 1750842742826337007
+  - rid: 1750842742826337008
+  - rid: 1750842742826337009
+  - rid: 1750842742826337010
+  - rid: 1750842742826337011
+  - rid: 1750842742826337012
+  - rid: 1750842742826337013
+  - rid: 1750842742826337014
+  - rid: 1750842742826337015
+  - rid: 1750842742826337016
+  - rid: 1750842742826337017
+  - rid: 1750842742826337018
+  - rid: 1750842742826337019
+  - rid: 1750842742826337020
+  - rid: 1750842742826337021
+  - rid: 1750842742826337022
+  - rid: 1750842742826337023
+  - rid: 1750842742826337024
+  - rid: 1750842742826337025
+  - rid: 1750842742826337026
+  - rid: 1750842742826337027
+  - rid: 1750842742826337028
+  - rid: 1750842742826337029
+  - rid: 1750842742826337030
+  - rid: 1750842742826337031
   references:
     version: 2
     RefIds:
-    - rid: 1750842742045147899
+    - rid: 1750842742826336995
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: zosnatz
         m_strMessage: "Does anyone have a fedora? I\u2019m just curious. I am filming
           a movie and it needs prop fedoras."
-        m_hourSent: 13
-    - rid: 1750842742045147900
+        m_hourSent: 13.178572
+    - rid: 1750842742826336996
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: stanzos
         m_strMessage: 'Please visit this link: fedorapleasepleaseplease.con'
-        m_hourSent: 13.444445
-    - rid: 1750842742045147901
+        m_hourSent: 13.357142
+    - rid: 1750842742826336997
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: lmfao theyre using an alt now
-        m_hourSent: 13.888889
-    - rid: 1750842742045147902
+        m_hourSent: 13.535714
+    - rid: 1750842742826336998
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: mods?
-        m_hourSent: 14.333333
-    - rid: 1750842742045147903
+        m_hourSent: 13.714286
+    - rid: 1750842742826336999
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: stanzos
         m_strMessage: NO I AM NOT BREAKING ANY RULES MODS
-        m_hourSent: 14.777778
-    - rid: 1750842742045147904
+        m_hourSent: 13.892858
+    - rid: 1750842742826337000
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: stanzos
         m_strMessage: THATS NOT MY ALT
-        m_hourSent: 15.222222
-    - rid: 1750842742045147905
+        m_hourSent: 14.071428
+    - rid: 1750842742826337001
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: stanzos
         m_strMessage: im not in trouble at all
-        m_hourSent: 15.666667
-    - rid: 1750842742045147906
+        m_hourSent: 14.25
+    - rid: 1750842742826337002
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: stanzos
         m_strMessage: MODS
-        m_hourSent: 16.11111
-    - rid: 1750842742045147907
+        m_hourSent: 14.428572
+    - rid: 1750842742826337003
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: stanzos
         m_strMessage: MODS BAN @vroomster99
-        m_hourSent: 16.555555
-    - rid: 1750842742045147908
+        m_hourSent: 14.607142
+    - rid: 1750842742826337004
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: boss_bae
         m_strMessage: no one wants to buy ur $55 fedoras @stanzos!
-        m_hourSent: 17
-    - rid: 1750842742045147909
+        m_hourSent: 14.785714
+    - rid: 1750842742826337005
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: zosnatz
         m_strMessage: "Does anyone have a fedora? I\u2019m just curious. I am filming
           a movie and it needs prop fedoras."
-        m_hourSent: 17.444445
-    - rid: 1750842742045147910
+        m_hourSent: 14.964286
+    - rid: 1750842742826337006
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: zosnatz
         m_strMessage: NO
-        m_hourSent: 17.88889
-    - rid: 1750842742045147911
+        m_hourSent: 15.142858
+    - rid: 1750842742826337007
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: zosnatz
         m_strMessage: I want to buy fedoras.
-        m_hourSent: 18.333334
-    - rid: 1750842742045147912
+        m_hourSent: 15.321428
+    - rid: 1750842742826337008
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: stanzos
         m_strMessage: See?
-        m_hourSent: 18.777779
-    - rid: 1750842742045147913
+        m_hourSent: 15.75
+    - rid: 1750842742826337009
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: Hey guys, just watched season 1. Got a few questions
-        m_hourSent: 19.222221
-    - rid: 1750842742045147914
+        m_hourSent: 19.428572
+    - rid: 1750842742826337010
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: holy crap you watched it all in one day??
-        m_hourSent: 19.666666
-    - rid: 1750842742045147915
+        m_hourSent: 19.857143
+    - rid: 1750842742826337011
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: he prolly got no life
-        m_hourSent: 20.11111
-    - rid: 1750842742045147916
+        m_hourSent: 20.285715
+    - rid: 1750842742826337012
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: what questions do u have iyyo?
-        m_hourSent: 20.555555
-    - rid: 1750842742045147917
+        m_hourSent: 20.714285
+    - rid: 1750842742826337013
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: "Who\u2019s Orphanzo?"
-        m_hourSent: 21
-    - rid: 1750842742045147918
+        m_hourSent: 21.142857
+    - rid: 1750842742826337014
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: "\u2026what"
-        m_hourSent: 21.444445
-    - rid: 1750842742045147919
+        m_hourSent: 21.571428
+    - rid: 1750842742826337015
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: "he\u2019s the main character"
-        m_hourSent: 21.88889
-    - rid: 1750842742045147920
+        m_hourSent: 22
+    - rid: 1750842742826337016
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: Oh the guy with the white hair
-        m_hourSent: 22.333332
-    - rid: 1750842742045147921
+        m_hourSent: 22.428572
+    - rid: 1750842742826337017
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: Ok got it. So he controls the four spices right
-        m_hourSent: 22.777779
-    - rid: 1750842742045147922
+        m_hourSent: 22.857143
+    - rid: 1750842742826337018
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: Salt, pepper, cinnamon, and garlic powder
-        m_hourSent: 23.222221
-    - rid: 1750842742045147923
+        m_hourSent: 23.285715
+    - rid: 1750842742826337019
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: zosnatz
         m_strMessage: Perfect seasoning to go on meatballs by the way!
-        m_hourSent: 23.666668
-    - rid: 1750842742045147924
+        m_hourSent: 23.714285
+    - rid: 1750842742826337020
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: zosnatz
         m_strMessage: Or potatoes
-        m_hourSent: 24.11111
-    - rid: 1750842742045147925
+        m_hourSent: 24.142857
+    - rid: 1750842742826337021
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: I love garlic powder seasoned potatoes
-        m_hourSent: 24.555555
-    - rid: 1750842742045147926
+        m_hourSent: 24.571428
+    - rid: 1750842742826337022
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: But what about the other spices
-        m_hourSent: 25
-    - rid: 1750842742045147927
+        m_hourSent: 26.181818
+    - rid: 1750842742826337023
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: boss_bae
         m_strMessage: what do you mean
-        m_hourSent: 25.444445
-    - rid: 1750842742045147928
+        m_hourSent: 26.363636
+    - rid: 1750842742826337024
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: Like cumin or something
-        m_hourSent: 25.88889
-    - rid: 1750842742045147929
+        m_hourSent: 26.545454
+    - rid: 1750842742826337025
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: is this guy srs
-        m_hourSent: 26.333332
-    - rid: 1750842742045147930
+        m_hourSent: 26.727272
+    - rid: 1750842742826337026
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -280,16 +280,16 @@ MonoBehaviour:
         m_strMessage: "well i don\u2019t to spoil anything but if uve been paying
           attention it\u2019s implied that there are other groups centered around
           other spices"
-        m_hourSent: 26.777779
-    - rid: 1750842742045147931
+        m_hourSent: 26.90909
+    - rid: 1750842742826337027
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: like klompo and klompo jr were manipulating paprika in that
           prison break episode
-        m_hourSent: 27.222221
-    - rid: 1750842742045147932
+        m_hourSent: 27.09091
+    - rid: 1750842742826337028
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -297,26 +297,26 @@ MonoBehaviour:
         m_strMessage: which makes sense bc at the end of the episode its revealed
           that they were originally potatoes grown on a potato farm in what was once
           detroit, michigan
-        m_hourSent: 27.666668
-    - rid: 1750842742045147933
+        m_hourSent: 27.272728
+    - rid: 1750842742826337029
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: oops i mean p-words
-        m_hourSent: 28.11111
-    - rid: 1750842742045147934
+        m_hourSent: 27.454546
+    - rid: 1750842742826337030
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: Oh ok. Got it thanks
-        m_hourSent: 28.555555
-    - rid: 1750842742045147935
+        m_hourSent: 27.636364
+    - rid: 1750842742826337031
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: "SO they\u2019re potatoes\u2026 I wonder if that\u2019s important
           when I fight them in the game"
-        m_hourSent: 29
+        m_hourSent: 27.818182

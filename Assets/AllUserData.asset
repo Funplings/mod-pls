@@ -62,25 +62,25 @@ MonoBehaviour:
     m_spriteProfile: {fileID: 21300000, guid: 0375d60be7549144183a8c10c0595cee, type: 3}
     m_isMod: 0
   - m_strName: Ilovehop
-    m_spriteProfile: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    m_spriteProfile: {fileID: 21300000, guid: 41a9def589eaa5c4693cf341d9d5a688, type: 3}
     m_isMod: 0
   - m_strName: anime_lover_18
-    m_spriteProfile: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    m_spriteProfile: {fileID: 21300000, guid: 53e150f98d4ab84468df4d0d7061986f, type: 3}
     m_isMod: 0
   - m_strName: superbeast
-    m_spriteProfile: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    m_spriteProfile: {fileID: 21300000, guid: efb0105de6710c54f8aaf3aa1cf41ce1, type: 3}
     m_isMod: 0
   - m_strName: Feraree_sf90
-    m_spriteProfile: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    m_spriteProfile: {fileID: 21300000, guid: 43da1009fde53e54981701297ac19305, type: 3}
     m_isMod: 0
   - m_strName: Lord_vidar_980
-    m_spriteProfile: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    m_spriteProfile: {fileID: 21300000, guid: e6bd83723e7b49d48a2e546c396d7df8, type: 3}
     m_isMod: 0
   - m_strName: monstermons
-    m_spriteProfile: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    m_spriteProfile: {fileID: 21300000, guid: cb4c483ffe28c3048bc842c91c37431e, type: 3}
     m_isMod: 0
   - m_strName: lily_2_awesome
-    m_spriteProfile: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    m_spriteProfile: {fileID: 21300000, guid: 7de164583c094424abd11e227edf4a23, type: 3}
     m_isMod: 0
   - m_strName: zosnatz
     m_spriteProfile: {fileID: 21300000, guid: 7322217aaa46b2446b72a16b753cafb8, type: 3}

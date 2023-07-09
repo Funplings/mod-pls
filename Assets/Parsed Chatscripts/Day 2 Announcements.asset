@@ -13,24 +13,24 @@ MonoBehaviour:
   m_Name: Day 2 Announcements
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842742045147989
-  - rid: 1750842742045147990
-  - rid: 1750842742045147991
-  - rid: 1750842742045147992
-  - rid: 1750842742045147993
-  - rid: 1750842742045147994
-  - rid: 1750842742045147995
+  - rid: 1750842742826337085
+  - rid: 1750842742826337086
+  - rid: 1750842742826337087
+  - rid: 1750842742826337088
+  - rid: 1750842742826337089
+  - rid: 1750842742826337090
+  - rid: 1750842742826337091
   references:
     version: 2
     RefIds:
-    - rid: 1750842742045147989
+    - rid: 1750842742826337085
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: So
         m_hourSent: 13
-    - rid: 1750842742045147990
+    - rid: 1750842742826337086
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -38,14 +38,14 @@ MonoBehaviour:
         m_strMessage: "People have been circumventing our potato rule and that\u2019s
           not ok"
         m_hourSent: 15.666667
-    - rid: 1750842742045147991
+    - rid: 1750842742826337087
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: "So now we\u2019ve banned the word \u201Cfries\u201D as well"
         m_hourSent: 18.333334
-    - rid: 1750842742045147992
+    - rid: 1750842742826337088
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
         m_strMessage: "Also by popular request we\u2019ve added an #irl channel and
           a #server-requests channel"
         m_hourSent: 21
-    - rid: 1750842742045147993
+    - rid: 1750842742826337089
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
         m_strMessage: In #irl links are banned. Delete any messages that contain
           links (In the format www.something.con)
         m_hourSent: 23.666668
-    - rid: 1750842742045147994
+    - rid: 1750842742826337090
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
         m_strMessage: "And in #server-requests you have to include \u201Cplease\u201D
           in every message"
         m_hourSent: 26.333332
-    - rid: 1750842742045147995
+    - rid: 1750842742826337091
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0

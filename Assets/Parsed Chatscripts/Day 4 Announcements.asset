@@ -13,59 +13,59 @@ MonoBehaviour:
   m_Name: Day 4 Announcements
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842742045148093
-  - rid: 1750842742045148094
-  - rid: 1750842742045148095
-  - rid: 1750842742045148096
-  - rid: 1750842742045148097
-  - rid: 1750842742045148098
-  - rid: 1750842742045148099
+  - rid: 1750842742826337189
+  - rid: 1750842742826337190
+  - rid: 1750842742826337191
+  - rid: 1750842742826337192
+  - rid: 1750842742826337193
+  - rid: 1750842742826337194
+  - rid: 1750842742826337195
   references:
     version: 2
     RefIds:
-    - rid: 1750842742045148093
+    - rid: 1750842742826337189
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: Ok you know what
         m_hourSent: 13
-    - rid: 1750842742045148094
+    - rid: 1750842742826337190
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: "I\u2019ve had enough of this shit"
         m_hourSent: 15.666667
-    - rid: 1750842742045148095
+    - rid: 1750842742826337191
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: Being a mod sucks
         m_hourSent: 18.333334
-    - rid: 1750842742045148096
+    - rid: 1750842742826337192
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: "Fuck it. I\u2019m giving you admin privileges"
         m_hourSent: 21
-    - rid: 1750842742045148097
+    - rid: 1750842742826337193
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: When a mod violates a rule you can ban them now
         m_hourSent: 23.666668
-    - rid: 1750842742045148098
+    - rid: 1750842742826337194
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: This is for @SEND_ME_SPUDS
         m_hourSent: 26.333332
-    - rid: 1750842742045148099
+    - rid: 1750842742826337195
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0

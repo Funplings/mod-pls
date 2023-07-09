@@ -23,6 +23,9 @@ public class ChannelManager : MonoBehaviour
     [SerializeField]
     private GameObject m_badPrefab;
 
+    [SerializeField]
+    private Sprite m_spritePlayer;
+
     [Header("Scene Components")]
     [SerializeField] private TextMeshProUGUI m_CurrentChannelHeader;
     [SerializeField] private TextMeshProUGUI m_CurrentChannelRule;
@@ -107,7 +110,7 @@ public class ChannelManager : MonoBehaviour
             ResumeTime();
         }
 
-        m_selectedChannel.PushMessage(GameManager.instance.m_strPlayer, GameManager.instance.m_spritePlayer, strInput);
+        m_selectedChannel.PushMessage(GameManager.instance.m_strPlayer, m_spritePlayer, strInput);
     }
 
     public Sprite SpriteForUser(string strUser)

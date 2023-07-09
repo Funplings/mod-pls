@@ -13,410 +13,410 @@ MonoBehaviour:
   m_Name: Day 3 IRL
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842742045147848
-  - rid: 1750842742045147849
-  - rid: 1750842742045147850
-  - rid: 1750842742045147851
-  - rid: 1750842742045147852
-  - rid: 1750842742045147853
-  - rid: 1750842742045147854
-  - rid: 1750842742045147855
-  - rid: 1750842742045147856
-  - rid: 1750842742045147857
-  - rid: 1750842742045147858
-  - rid: 1750842742045147859
-  - rid: 1750842742045147860
-  - rid: 1750842742045147861
-  - rid: 1750842742045147862
-  - rid: 1750842742045147863
-  - rid: 1750842742045147864
-  - rid: 1750842742045147865
-  - rid: 1750842742045147866
-  - rid: 1750842742045147867
-  - rid: 1750842742045147868
-  - rid: 1750842742045147869
-  - rid: 1750842742045147870
-  - rid: 1750842742045147871
-  - rid: 1750842742045147872
-  - rid: 1750842742045147873
-  - rid: 1750842742045147874
-  - rid: 1750842742045147875
-  - rid: 1750842742045147876
-  - rid: 1750842742045147877
-  - rid: 1750842742045147878
-  - rid: 1750842742045147879
-  - rid: 1750842742045147880
-  - rid: 1750842742045147881
-  - rid: 1750842742045147882
-  - rid: 1750842742045147883
-  - rid: 1750842742045147884
-  - rid: 1750842742045147885
-  - rid: 1750842742045147886
-  - rid: 1750842742045147887
-  - rid: 1750842742045147888
-  - rid: 1750842742045147889
-  - rid: 1750842742045147890
-  - rid: 1750842742045147891
-  - rid: 1750842742045147892
-  - rid: 1750842742045147893
-  - rid: 1750842742045147894
-  - rid: 1750842742045147895
-  - rid: 1750842742045147896
-  - rid: 1750842742045147897
-  - rid: 1750842742045147898
+  - rid: 1750842742826336944
+  - rid: 1750842742826336945
+  - rid: 1750842742826336946
+  - rid: 1750842742826336947
+  - rid: 1750842742826336948
+  - rid: 1750842742826336949
+  - rid: 1750842742826336950
+  - rid: 1750842742826336951
+  - rid: 1750842742826336952
+  - rid: 1750842742826336953
+  - rid: 1750842742826336954
+  - rid: 1750842742826336955
+  - rid: 1750842742826336956
+  - rid: 1750842742826336957
+  - rid: 1750842742826336958
+  - rid: 1750842742826336959
+  - rid: 1750842742826336960
+  - rid: 1750842742826336961
+  - rid: 1750842742826336962
+  - rid: 1750842742826336963
+  - rid: 1750842742826336964
+  - rid: 1750842742826336965
+  - rid: 1750842742826336966
+  - rid: 1750842742826336967
+  - rid: 1750842742826336968
+  - rid: 1750842742826336969
+  - rid: 1750842742826336970
+  - rid: 1750842742826336971
+  - rid: 1750842742826336972
+  - rid: 1750842742826336973
+  - rid: 1750842742826336974
+  - rid: 1750842742826336975
+  - rid: 1750842742826336976
+  - rid: 1750842742826336977
+  - rid: 1750842742826336978
+  - rid: 1750842742826336979
+  - rid: 1750842742826336980
+  - rid: 1750842742826336981
+  - rid: 1750842742826336982
+  - rid: 1750842742826336983
+  - rid: 1750842742826336984
+  - rid: 1750842742826336985
+  - rid: 1750842742826336986
+  - rid: 1750842742826336987
+  - rid: 1750842742826336988
+  - rid: 1750842742826336989
+  - rid: 1750842742826336990
+  - rid: 1750842742826336991
+  - rid: 1750842742826336992
+  - rid: 1750842742826336993
+  - rid: 1750842742826336994
   references:
     version: 2
     RefIds:
-    - rid: 1750842742045147848
+    - rid: 1750842742826336944
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: superbeast
         m_strMessage: Yo anyone want to have some fun
-        m_hourSent: 13.366667
-    - rid: 1750842742045147849
+        m_hourSent: 13.666667
+    - rid: 1750842742826336945
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: superbeast
         m_strMessage: Paris Las Vegas tonight, 3 people max
-        m_hourSent: 13.433333
-    - rid: 1750842742045147850
+        m_hourSent: 13.833333
+    - rid: 1750842742826336946
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: monstermons
         m_strMessage: I NEED SOMEONE TO HELP ME
-        m_hourSent: 20.142857
-    - rid: 1750842742045147851
+        m_hourSent: 19.285715
+    - rid: 1750842742826336947
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: monstermons
         m_strMessage: THERE WAS A POTATO A DREAM AND THEN EVERYTHING WENT WRONG
-        m_hourSent: 20.285715
-    - rid: 1750842742045147852
+        m_hourSent: 19.571428
+    - rid: 1750842742826336948
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: monstermons
         m_strMessage: I NEED SOMEONE WHO SPECIALIZES IN REMOVING OBJECTS FROM DIFFICULT
           TO REACH PLACES
-        m_hourSent: 20.428572
-    - rid: 1750842742045147853
+        m_hourSent: 19.857143
+    - rid: 1750842742826336949
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: top-poster
         m_strMessage: Guys new video, show your support thanks htps://quetube.con/watch?=1k3EAoqP
-        m_hourSent: 20.571428
-    - rid: 1750842742045147854
+        m_hourSent: 20.142857
+    - rid: 1750842742826336950
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Ilovehop
         m_strMessage: Where are you?
-        m_hourSent: 20.714285
-    - rid: 1750842742045147855
+        m_hourSent: 20.428572
+    - rid: 1750842742826336951
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Ilovehop
         m_strMessage: And i think im going to need more context
-        m_hourSent: 20.857143
-    - rid: 1750842742045147856
+        m_hourSent: 20.714285
+    - rid: 1750842742826336952
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: monstermons
         m_strMessage: EVERYTHING IS OK!
-        m_hourSent: 24.1
-    - rid: 1750842742045147857
+        m_hourSent: 22.6
+    - rid: 1750842742826336953
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: monstermons
         m_strMessage: FALSE ALARM, ITS ALL GOOD
-        m_hourSent: 24.2
-    - rid: 1750842742045147858
+        m_hourSent: 22.7
+    - rid: 1750842742826336954
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: monstermons
         m_strMessage: CARRY ON
-        m_hourSent: 24.3
-    - rid: 1750842742045147859
+        m_hourSent: 22.8
+    - rid: 1750842742826336955
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Ilovehop
         m_strMessage: awesome
-        m_hourSent: 24.4
-    - rid: 1750842742045147860
+        m_hourSent: 22.9
+    - rid: 1750842742826336956
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: lily_2_awesome
         m_strMessage: Ok mods I know im gonna trip some flags here but this is important
           to share okay
-        m_hourSent: 25.1
-    - rid: 1750842742045147861
+        m_hourSent: 24.22857
+    - rid: 1750842742826336957
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: lily_2_awesome
         m_strMessage: htps://www.sevenflags.con/the-potato-farm-/news
-        m_hourSent: 25.2
-    - rid: 1750842742045147862
+        m_hourSent: 24.357143
+    - rid: 1750842742826336958
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: :(
-        m_hourSent: 25.3
-    - rid: 1750842742045147863
+        m_hourSent: 24.485714
+    - rid: 1750842742826336959
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: lily_2_awesome
         m_strMessage: They were probably rushing to capitalize on the hype from the
           season finale...
-        m_hourSent: 25.4
-    - rid: 1750842742045147864
+        m_hourSent: 24.614286
+    - rid: 1750842742826336960
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: lily_2_awesome
         m_strMessage: "\u201CIf youre sad about Jr. dying, then pay us money and
           strap yourself into a rollercoaster lol\u201D"
-        m_hourSent: 25.5
-    - rid: 1750842742045147865
+        m_hourSent: 24.742857
+    - rid: 1750842742826336961
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: lily_2_awesome
         m_strMessage: etc etc etc.
-        m_hourSent: 25.6
-    - rid: 1750842742045147866
+        m_hourSent: 24.87143
+    - rid: 1750842742826336962
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: monstermons
         m_strMessage: alsdfjasdlj
-        m_hourSent: 25.7
-    - rid: 1750842742045147867
+        m_hourSent: 25.083334
+    - rid: 1750842742826336963
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: monstermons
         m_strMessage: JUNIOR DIED?!?!??!
-        m_hourSent: 25.8
-    - rid: 1750842742045147868
+        m_hourSent: 25.166666
+    - rid: 1750842742826336964
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: monstermons
         m_strMessage: KEEP IT TO #FINALE PLEASE
-        m_hourSent: 25.9
-    - rid: 1750842742045147869
+        m_hourSent: 25.25
+    - rid: 1750842742826336965
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_Hater
         m_strMessage: Okay ive been too afraid to ask but i cant keep this up forever
-        m_hourSent: 26
-    - rid: 1750842742045147870
+        m_hourSent: 25.333334
+    - rid: 1750842742826336966
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_Hater
         m_strMessage: What IS IT with these Ps
-        m_hourSent: 26.1
-    - rid: 1750842742045147871
+        m_hourSent: 25.416666
+    - rid: 1750842742826336967
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_Hater
         m_strMessage: Why cant i say the word
-        m_hourSent: 26.2
-    - rid: 1750842742045147872
+        m_hourSent: 25.5
+    - rid: 1750842742826336968
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: Here we go
-        m_hourSent: 26.3
-    - rid: 1750842742045147873
+        m_hourSent: 25.583334
+    - rid: 1750842742826336969
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: "\u2026"
-        m_hourSent: 26.4
-    - rid: 1750842742045147874
+        m_hourSent: 25.666666
+    - rid: 1750842742826336970
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: "Fine I\u2019ll do it"
-        m_hourSent: 26.5
-    - rid: 1750842742045147875
+        m_hourSent: 25.75
+    - rid: 1750842742826336971
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: Okay :(
-        m_hourSent: 26.6
-    - rid: 1750842742045147876
+        m_hourSent: 25.833334
+    - rid: 1750842742826336972
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: So
-        m_hourSent: 26.7
-    - rid: 1750842742045147877
+        m_hourSent: 25.916666
+    - rid: 1750842742826336973
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: Seven Flags announced a new coaster ride
-        m_hourSent: 26.8
-    - rid: 1750842742045147878
+        m_hourSent: 26.055555
+    - rid: 1750842742826336974
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: "Reese\u2019s Idaho-Hooey Romp"
-        m_hourSent: 26.9
-    - rid: 1750842742045147879
+        m_hourSent: 26.11111
+    - rid: 1750842742826336975
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: Themed around the show obviously. They even built a model P-word
           farm to explore
-        m_hourSent: 27
-    - rid: 1750842742045147880
+        m_hourSent: 26.166666
+    - rid: 1750842742826336976
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: "I\u2019m going to leave, sorry guys"
-        m_hourSent: 27.1
-    - rid: 1750842742045147881
+        m_hourSent: 26.222221
+    - rid: 1750842742826336977
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: "But they didn\u2019t do their fucking safety checks ughh"
-        m_hourSent: 27.2
-    - rid: 1750842742045147882
+        m_hourSent: 26.277779
+    - rid: 1750842742826336978
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: (The fake paprika they put into the snow machines was flammable)
-        m_hourSent: 27.3
-    - rid: 1750842742045147883
+        m_hourSent: 26.333334
+    - rid: 1750842742826336979
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: Long story short, a load-bearing potato collapsed
-        m_hourSent: 27.4
-    - rid: 1750842742045147884
+        m_hourSent: 26.38889
+    - rid: 1750842742826336980
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: And down came the coaster ride
-        m_hourSent: 27.5
-    - rid: 1750842742045147885
+        m_hourSent: 26.444445
+    - rid: 1750842742826336981
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_Hater
         m_strMessage: "wow that brings a *whole* new meaning to \u201Cloaded potato\u201D"
-        m_hourSent: 27.6
-    - rid: 1750842742045147886
+        m_hourSent: 26.675
+    - rid: 1750842742826336982
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: 13 people died. including the server admin (@SEND_ME_SPUDS)
-        m_hourSent: 27.7
-    - rid: 1750842742045147887
+        m_hourSent: 26.85
+    - rid: 1750842742826336983
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: Awful
-        m_hourSent: 27.8
-    - rid: 1750842742045147888
+        m_hourSent: 27.025002
+    - rid: 1750842742826336984
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: lily_2_awesome
         m_strMessage: Yeahhhhh. And now the other mods are scrambling to fill the
           space she left
-        m_hourSent: 27.9
-    - rid: 1750842742045147889
+        m_hourSent: 27.266666
+    - rid: 1750842742826336985
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: top-poster
         m_strMessage: watch yourself
-        m_hourSent: 28
-    - rid: 1750842742045147890
+        m_hourSent: 27.333334
+    - rid: 1750842742826336986
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: lily_2_awesome
         m_strMessage: What??
-        m_hourSent: 28.1
-    - rid: 1750842742045147891
+        m_hourSent: 27.45
+    - rid: 1750842742826336987
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: top-poster
         m_strMessage: Guys new video, show your support thanks htps://quetube.con/watch?=1k3EAoqP
-        m_hourSent: 28.2
-    - rid: 1750842742045147892
+        m_hourSent: 27.666666
+    - rid: 1750842742826336988
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_Hater
         m_strMessage: Uh...
-        m_hourSent: 28.3
-    - rid: 1750842742045147893
+        m_hourSent: 27.833334
+    - rid: 1750842742826336989
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_Hater
         m_strMessage: You think they fixed everything up, then?
-        m_hourSent: 28.4
-    - rid: 1750842742045147894
+        m_hourSent: 28
+    - rid: 1750842742826336990
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: The collapse happened literally last week
-        m_hourSent: 28.5
-    - rid: 1750842742045147895
+        m_hourSent: 28.166666
+    - rid: 1750842742826336991
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: "I wouldn\u2019t touch this thing with a fifty foot pole. Sorry"
-        m_hourSent: 28.6
-    - rid: 1750842742045147896
+        m_hourSent: 28.333334
+    - rid: 1750842742826336992
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: top-poster
         m_strMessage: you cant stop me
-        m_hourSent: 28.7
-    - rid: 1750842742045147897
+        m_hourSent: 28.5
+    - rid: 1750842742826336993
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -424,11 +424,11 @@ MonoBehaviour:
         m_strMessage: i furrow my brow and growl at you. dominance asserted, i flap
           my arms to scare the other parkgoers out of the line. this time, i am MORE
           than tall enough to sit in the cart
-        m_hourSent: 28.8
-    - rid: 1750842742045147898
+        m_hourSent: 28.666666
+    - rid: 1750842742826336994
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: lily_2_awesome
         m_strMessage: ok
-        m_hourSent: 28.9
+        m_hourSent: 28.833334

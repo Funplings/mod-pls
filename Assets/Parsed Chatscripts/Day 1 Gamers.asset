@@ -13,444 +13,444 @@ MonoBehaviour:
   m_Name: Day 1 Gamers
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842742045147794
-  - rid: 1750842742045147795
-  - rid: 1750842742045147796
-  - rid: 1750842742045147797
-  - rid: 1750842742045147798
-  - rid: 1750842742045147799
-  - rid: 1750842742045147800
-  - rid: 1750842742045147801
-  - rid: 1750842742045147802
-  - rid: 1750842742045147803
-  - rid: 1750842742045147804
-  - rid: 1750842742045147805
-  - rid: 1750842742045147806
-  - rid: 1750842742045147807
-  - rid: 1750842742045147808
-  - rid: 1750842742045147809
-  - rid: 1750842742045147810
-  - rid: 1750842742045147811
-  - rid: 1750842742045147812
-  - rid: 1750842742045147813
-  - rid: 1750842742045147814
-  - rid: 1750842742045147815
-  - rid: 1750842742045147816
-  - rid: 1750842742045147817
-  - rid: 1750842742045147818
-  - rid: 1750842742045147819
-  - rid: 1750842742045147820
-  - rid: 1750842742045147821
-  - rid: 1750842742045147822
-  - rid: 1750842742045147823
-  - rid: 1750842742045147824
-  - rid: 1750842742045147825
-  - rid: 1750842742045147826
-  - rid: 1750842742045147827
-  - rid: 1750842742045147828
-  - rid: 1750842742045147829
-  - rid: 1750842742045147830
-  - rid: 1750842742045147831
-  - rid: 1750842742045147832
-  - rid: 1750842742045147833
-  - rid: 1750842742045147834
-  - rid: 1750842742045147835
-  - rid: 1750842742045147836
-  - rid: 1750842742045147837
-  - rid: 1750842742045147838
-  - rid: 1750842742045147839
-  - rid: 1750842742045147840
-  - rid: 1750842742045147841
-  - rid: 1750842742045147842
-  - rid: 1750842742045147843
-  - rid: 1750842742045147844
-  - rid: 1750842742045147845
-  - rid: 1750842742045147846
-  - rid: 1750842742045147847
+  - rid: 1750842742826336890
+  - rid: 1750842742826336891
+  - rid: 1750842742826336892
+  - rid: 1750842742826336893
+  - rid: 1750842742826336894
+  - rid: 1750842742826336895
+  - rid: 1750842742826336896
+  - rid: 1750842742826336897
+  - rid: 1750842742826336898
+  - rid: 1750842742826336899
+  - rid: 1750842742826336900
+  - rid: 1750842742826336901
+  - rid: 1750842742826336902
+  - rid: 1750842742826336903
+  - rid: 1750842742826336904
+  - rid: 1750842742826336905
+  - rid: 1750842742826336906
+  - rid: 1750842742826336907
+  - rid: 1750842742826336908
+  - rid: 1750842742826336909
+  - rid: 1750842742826336910
+  - rid: 1750842742826336911
+  - rid: 1750842742826336912
+  - rid: 1750842742826336913
+  - rid: 1750842742826336914
+  - rid: 1750842742826336915
+  - rid: 1750842742826336916
+  - rid: 1750842742826336917
+  - rid: 1750842742826336918
+  - rid: 1750842742826336919
+  - rid: 1750842742826336920
+  - rid: 1750842742826336921
+  - rid: 1750842742826336922
+  - rid: 1750842742826336923
+  - rid: 1750842742826336924
+  - rid: 1750842742826336925
+  - rid: 1750842742826336926
+  - rid: 1750842742826336927
+  - rid: 1750842742826336928
+  - rid: 1750842742826336929
+  - rid: 1750842742826336930
+  - rid: 1750842742826336931
+  - rid: 1750842742826336932
+  - rid: 1750842742826336933
+  - rid: 1750842742826336934
+  - rid: 1750842742826336935
+  - rid: 1750842742826336936
+  - rid: 1750842742826336937
+  - rid: 1750842742826336938
+  - rid: 1750842742826336939
+  - rid: 1750842742826336940
+  - rid: 1750842742826336941
+  - rid: 1750842742826336942
+  - rid: 1750842742826336943
   references:
     version: 2
     RefIds:
-    - rid: 1750842742045147794
+    - rid: 1750842742826336890
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_hater
         m_strMessage: Why is th3 hurt box for boo so w3ird
-        m_hourSent: 13
-    - rid: 1750842742045147795
+        m_hourSent: 15.294118
+    - rid: 1750842742826336891
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: "Wh@t do you m3@n wouldn\u2019t you w@nt to prot3ct boo, i
           p3rson@lly conc3d3 @g@inst boo m@ins"
-        m_hourSent: 13.301887
-    - rid: 1750842742045147796
+        m_hourSent: 15.588235
+    - rid: 1750842742826336892
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: "Sounds lik3 you\u2019r3 just not good 3nough to b3@t @ boo
           on your own, h3r hit box3s s33ms r3@son@bl3 to m3"
-        m_hourSent: 13.603773
-    - rid: 1750842742045147797
+        m_hourSent: 15.882353
+    - rid: 1750842742826336893
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_hater
         m_strMessage: Th@t's b3c@us3 Orph@nzo h@s @ hug3 hit box so its impossibl3
           to miss
-        m_hourSent: 13.905661
-    - rid: 1750842742045147798
+        m_hourSent: 16.17647
+    - rid: 1750842742826336894
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: YOU T@K3 TH@T B@CK
-        m_hourSent: 14.207547
-    - rid: 1750842742045147799
+        m_hourSent: 16.470589
+    - rid: 1750842742826336895
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: Th3y @r3 kind@ right you c@n hit @cross th3 whol3 scr33n
-        m_hourSent: 14.509434
-    - rid: 1750842742045147800
+        m_hourSent: 16.764706
+    - rid: 1750842742826336896
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: I thought you were on my side defender
-        m_hourSent: 14.811321
-    - rid: 1750842742045147801
+        m_hourSent: 17.058823
+    - rid: 1750842742826336897
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_hater
         m_strMessage: G3t t3@m3d on
-        m_hourSent: 15.113208
-    - rid: 1750842742045147802
+        m_hourSent: 17.352942
+    - rid: 1750842742826336898
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: "I p3rson@lly 3njoy Klompo\u2019s r@ng3d @tt@ck"
-        m_hourSent: 15.415094
-    - rid: 1750842742045147803
+        m_hourSent: 17.647058
+    - rid: 1750842742826336899
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: "Don\u2019t s@y mor3"
-        m_hourSent: 15.716981
-    - rid: 1750842742045147804
+        m_hourSent: 17.941177
+    - rid: 1750842742826336900
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: Th3 implic@tions @r3 str@ng3
-        m_hourSent: 16.018867
-    - rid: 1750842742045147805
+        m_hourSent: 18.235294
+    - rid: 1750842742826336901
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: Pls stop
-        m_hourSent: 16.320755
-    - rid: 1750842742045147806
+        m_hourSent: 18.529411
+    - rid: 1750842742826336902
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: H3 throws fri3s b3for3 th3y @r3 fri3d
-        m_hourSent: 16.622643
-    - rid: 1750842742045147807
+        m_hourSent: 18.82353
+    - rid: 1750842742826336903
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: PeerOfShakespeare
         m_strMessage: Ah, yes. The slinger of spuds. Pitcher of potatoes. An elegant
           weapon of choice.
-        m_hourSent: 16.924528
-    - rid: 1750842742045147808
+        m_hourSent: 19.117647
+    - rid: 1750842742826336904
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_hater
         m_strMessage: "You prob@bly sp@m th3m don\u2019t you"
-        m_hourSent: 17.226416
-    - rid: 1750842742045147809
+        m_hourSent: 19.411764
+    - rid: 1750842742826336905
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: "You c@n\u2019t h@v3 too m@ny pot@to3s with klompo Jr"
-        m_hourSent: 17.528301
-    - rid: 1750842742045147810
+        m_hourSent: 19.705883
+    - rid: 1750842742826336906
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: "I c@n\u2019t b3li3v3 w3 h@v3 so m@ny b@d t@k3s h3r3 rn"
-        m_hourSent: 17.830189
-    - rid: 1750842742045147811
+        m_hourSent: 22.625
+    - rid: 1750842742826336907
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_hater
         m_strMessage: W3ll on3 thing im sur3 w3 c@n @ll @gr33 on is th@t  P@r3nti
           do3s not h@v3 3nough @tt@ck v@ri3ty
-        m_hourSent: 18.132076
-    - rid: 1750842742045147812
+        m_hourSent: 22.75
+    - rid: 1750842742826336908
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: Oh y3@h, th3y @r3 @ll kind@ sucky @t 3@rly l3@rning st@g3s
-        m_hourSent: 18.433962
-    - rid: 1750842742045147813
+        m_hourSent: 22.875
+    - rid: 1750842742826336909
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: They are more of a hard to learn character, starting the combos
           is hard
-        m_hourSent: 18.73585
-    - rid: 1750842742045147814
+        m_hourSent: 23
+    - rid: 1750842742826336910
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: parentididnothingwrong
         m_strMessage: But P@r3nti is vi@bl3 @t high3r l3v3ls of pl@y
-        m_hourSent: 19.037735
-    - rid: 1750842742045147815
+        m_hourSent: 23.125
+    - rid: 1750842742826336911
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: "Oh y3@h th3n you wouldn\u2019t mind @ 1v1 @g@inst 3v3ryon3
           h3r3"
-        m_hourSent: 19.339622
-    - rid: 1750842742045147816
+        m_hourSent: 23.25
+    - rid: 1750842742826336912
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: parentididnothingwrong
         m_strMessage: I t@k3 it b@ck guys th3y @r3 impossibl3 to pl@y
-        m_hourSent: 19.64151
-    - rid: 1750842742045147817
+        m_hourSent: 23.375
+    - rid: 1750842742826336913
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: W3ll i sp3nt @noth3r 100 doll@rs tod@y to gu@r@nt33 my Klompoo
           in sp@c3 pull
-        m_hourSent: 19.943396
-    - rid: 1750842742045147818
+        m_hourSent: 23.5
+    - rid: 1750842742826336914
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: You s33 this is why you n33d to grind in th3 g@m3 mor3
-        m_hourSent: 20.245283
-    - rid: 1750842742045147819
+        m_hourSent: 23.625
+    - rid: 1750842742826336915
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: But th3n how will i b3 @bl3 to @bsorb th3 oth3r cont3nt
-        m_hourSent: 20.547169
-    - rid: 1750842742045147820
+        m_hourSent: 23.75
+    - rid: 1750842742826336916
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: H@v3 you still not upgr@d3d to th3 @utopl@y f3@tur3?
-        m_hourSent: 20.849056
-    - rid: 1750842742045147821
+        m_hourSent: 23.875
+    - rid: 1750842742826336917
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: "TH3R3\u2019S @N @UTO PL@Y F3@TUR3??????"
-        m_hourSent: 21.150944
-    - rid: 1750842742045147822
+        m_hourSent: 24
+    - rid: 1750842742826336918
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: Y3@h it w@s th3r3 for lik3 2 upd@t3s
-        m_hourSent: 21.452831
-    - rid: 1750842742045147823
+        m_hourSent: 24.125
+    - rid: 1750842742826336919
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: "Why don\u2019t you tell me these things sooner"
-        m_hourSent: 21.754717
-    - rid: 1750842742045147824
+        m_hourSent: 24.25
+    - rid: 1750842742826336920
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: I lik3 s33ing p3opl3 @ct lik3 @ clown
-        m_hourSent: 22.056602
-    - rid: 1750842742045147825
+        m_hourSent: 24.375
+    - rid: 1750842742826336921
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: '@nyon3 w@nt to g3t tog3th3r to roll for th3 n3w b@nn3r'
-        m_hourSent: 22.35849
-    - rid: 1750842742045147826
+        m_hourSent: 24.625
+    - rid: 1750842742826336922
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: Wh3r3
-        m_hourSent: 22.660378
-    - rid: 1750842742045147827
+        m_hourSent: 24.75
+    - rid: 1750842742826336923
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: "I\u2019ll b3 @t c3ntr@l p@rk if @nyon3 is in th3 @r3@"
-        m_hourSent: 22.962265
-    - rid: 1750842742045147828
+        m_hourSent: 24.875
+    - rid: 1750842742826336924
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: I w@s thinking lik3 5 pm frid@y
-        m_hourSent: 23.26415
-    - rid: 1750842742045147829
+        m_hourSent: 25
+    - rid: 1750842742826336925
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: I c@n m@k3 it!
-        m_hourSent: 23.566038
-    - rid: 1750842742045147830
+        m_hourSent: 25.125
+    - rid: 1750842742826336926
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: '@w im w3st co@st, sorry'
-        m_hourSent: 23.867924
-    - rid: 1750842742045147831
+        m_hourSent: 25.25
+    - rid: 1750842742826336927
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: Unl3ss I fly th3r3 ig lol
-        m_hourSent: 24.169811
-    - rid: 1750842742045147832
+        m_hourSent: 25.375
+    - rid: 1750842742826336928
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: just join us in c@ll, w3 c@n str3@m our rolls
-        m_hourSent: 24.471699
-    - rid: 1750842742045147833
+        m_hourSent: 25.65625
+    - rid: 1750842742826336929
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: Central park new york 5 pm friday
-        m_hourSent: 24.773586
-    - rid: 1750842742045147834
+        m_hourSent: 25.8125
+    - rid: 1750842742826336930
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: POT@TO P@RTY COMING SOON
-        m_hourSent: 25.075472
-    - rid: 1750842742045147835
+        m_hourSent: 25.96875
+    - rid: 1750842742826336931
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: Htps://sup3r_vit3.cm/3v3nts/@W3sl1n3q0wzx
-        m_hourSent: 25.377357
-    - rid: 1750842742045147836
+        m_hourSent: 26.125
+    - rid: 1750842742826336932
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: FRI3S FRI3S FRI3S
-        m_hourSent: 25.679245
-    - rid: 1750842742045147837
+        m_hourSent: 26.28125
+    - rid: 1750842742826336933
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: Lol nic3
-        m_hourSent: 25.981133
-    - rid: 1750842742045147838
+        m_hourSent: 26.4375
+    - rid: 1750842742826336934
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: FRI3S?
-        m_hourSent: 26.28302
-    - rid: 1750842742045147839
+        m_hourSent: 26.59375
+    - rid: 1750842742826336935
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: G3nius loophol3
-        m_hourSent: 26.584906
-    - rid: 1750842742045147840
+        m_hourSent: 26.75
+    - rid: 1750842742826336936
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: FRIE SFIRES IRFES
-        m_hourSent: 26.886791
-    - rid: 1750842742045147841
+        m_hourSent: 26.90625
+    - rid: 1750842742826336937
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: boss_bae
         m_strMessage: "M3@ns th3 p word, pr3tty sur3 th3 s3rv3r do3sn\u2019t lik3
           it"
-        m_hourSent: 27.188679
-    - rid: 1750842742045147842
+        m_hourSent: 27.0625
+    - rid: 1750842742826336938
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: Oh ok?
-        m_hourSent: 27.490566
-    - rid: 1750842742045147843
+        m_hourSent: 27.21875
+    - rid: 1750842742826336939
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: boss_bae
         m_strMessage: Kind@ @nnoying but it m@k3s s3ns3 in th3 cont3xt of th3 story
-        m_hourSent: 27.792454
-    - rid: 1750842742045147844
+        m_hourSent: 27.375
+    - rid: 1750842742826336940
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: FRO3S FIR3S
-        m_hourSent: 28.09434
-    - rid: 1750842742045147845
+        m_hourSent: 27.53125
+    - rid: 1750842742826336941
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: FRI3S
-        m_hourSent: 28.396227
-    - rid: 1750842742045147846
+        m_hourSent: 27.6875
+    - rid: 1750842742826336942
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: LOL
-        m_hourSent: 28.698112
-    - rid: 1750842742045147847
+        m_hourSent: 27.84375
+    - rid: 1750842742826336943
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0

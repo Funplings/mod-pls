@@ -2762,6 +2762,7 @@ MonoBehaviour:
   m_selectedChannel: {fileID: 577194698}
   m_goodPrefab: {fileID: 7982416891063427142, guid: 0beec9cba8298c8428d4400a7c9835a9, type: 3}
   m_badPrefab: {fileID: 5002641667522847119, guid: ba2b378c47e711d4c9c7abcb10a49b3f, type: 3}
+  m_spritePlayer: {fileID: 21300000, guid: 961cccb77e5233e4494f80f289df792e, type: 3}
   m_CurrentChannelHeader: {fileID: 109293681}
   m_CurrentChannelRule: {fileID: 114053593}
   m_canvas: {fileID: 1549602055}
