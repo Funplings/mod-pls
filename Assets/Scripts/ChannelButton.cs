@@ -20,13 +20,11 @@ public class ChannelButton : MonoBehaviour
 
 	public void setButtonAsSelected()
     {
-		// Set transparency of button to 255 (opaque)
-		Utils.setImageAlpha(m_Button.image, 255);
+		m_Button.interactable = false;		
 	}
 
 	public void setButtonAsUnselected()
 	{
-		// Set transparency of image to 0 (transparent)
-		Utils.setImageAlpha(m_Button.image, 0);
+		m_Button.interactable = true;		
 	}
 }
