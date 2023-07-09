@@ -17,6 +17,7 @@ public class ChannelButton : MonoBehaviour
 
     void onClickChannelButton()
     {
+        AudioManager.instance.PlaySFX("Change_Channel");
         ChannelManager.Instance.SelectChannel(m_ChannelName);
     }
 
