@@ -97,16 +97,32 @@ public class Message : MonoBehaviour
 
         button.interactable = false;
 
+        // Set label
         string label; 
         if (ChannelManager.Instance.m_day == 4)
         {
             label = "Banned by";
-            AudioManager.instance.PlaySFX("Ban_Message");
         } else
         {
             label = "Deleted by";
-            AudioManager.instance.PlaySFX("Delete_Message");
         }
+
+        // Play sound
+        if (m_violatesRules)
+        {
+            if (ChannelManager.Instance.m_day == 4)
+            {
+                AudioManager.instance.PlaySFX("Ban_Message");
+            } else
+            {
+                AudioManager.instance.PlaySFX("Delete_Message");
+            }
+        } else
+        {
+            AudioManager.instance.PlaySFX("Bad_Delete");
+        }
+
+        // Add label
         m_timestampText.text = string.Format("<{0} {1}>", label, GameManager.instance.m_strPlayer);
     }
 

@@ -5732,7 +5732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: sfxList.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: musicList.Array.size
@@ -5745,6 +5745,14 @@ PrefabInstance:
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: sfxList.Array.data[2].name
       value: Ban_Message
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
+      propertyPath: sfxList.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d9ed342aadf4d8f4a8224a6db794369c, type: 3}
+    - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
+      propertyPath: sfxList.Array.data[3].name
+      value: Bad_Delete
       objectReference: {fileID: 0}
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: musicList.Array.data[0].name
@@ -5777,6 +5785,10 @@ PrefabInstance:
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: sfxList.Array.data[2].volume
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
+      propertyPath: sfxList.Array.data[3].volume
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: musicList.Array.data[3].volume
