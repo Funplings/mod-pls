@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class Channel : MonoBehaviour
 {
@@ -17,82 +18,62 @@ public class Channel : MonoBehaviour
     private GameObject m_ChannelButtonObject;
 
     [Header("Configuration")]
-    [SerializeField] private float m_secDelayBase = 1;
     [SerializeField] private string m_ChannelName;
-    [SerializeField] private bool m_isAnnouncementsChannel = false;
+    [SerializeField] public bool m_isAnnouncementsChannel = false;
     [SerializeField] private List<Rule> m_ChannelRules;
 
     private ChatscriptData m_chatscriptCurrent;
-    private int m_iCommand = 0;
+    private int m_iMessage = 0;
 
-    private float m_timeNextCommand = 0;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        m_chatscriptCurrent = m_dailyChatscripts[0];
-        if (m_isAnnouncementsChannel)
-        {
-            while (m_chatscriptCurrent && m_iCommand < m_chatscriptCurrent.m_commands.Count)
-            {
-                ReadNextCommand();
-            }
-        }
-    }
+    private float m_timeNextOverride = 0; // Used for announcements while time is frozen
 
     // Update is called once per frame
     void Update()
     {
-        if (ChannelManager.Instance.GetDayStarted())
+        bool announcementsMessage = m_chatscriptCurrent && m_isAnnouncementsChannel && Time.time >= m_timeNextOverride && m_iMessage < m_chatscriptCurrent.m_messages.Count;
+
+        if (announcementsMessage)
         {
-            if (m_chatscriptCurrent &&
-            m_iCommand < m_chatscriptCurrent.m_commands.Count &&
-            Time.time >= m_timeNextCommand)
+            MessageCommand messageCommand = m_chatscriptCurrent.m_messages[m_iMessage++];
+            SendMessage(messageCommand);
+            m_timeNextOverride = Time.time + 4.0f;
+            return;
+        }
+
+        if (m_chatscriptCurrent && m_iMessage < m_chatscriptCurrent.m_messages.Count)
+        {
+            MessageCommand messageCommand = m_chatscriptCurrent.m_messages[m_iMessage];
+
+            float hourCurrent = ChannelManager.Instance.CurrentGameTime();
+
+            if (!ChannelManager.Instance.IsTimeFrozen() && hourCurrent > messageCommand.m_hourSent)
             {
-                ReadNextCommand();
+                SendMessage(messageCommand);
+                m_iMessage++;
             }
         }
     }
 
-    void ReadNextCommand()
+    void SendMessage(MessageCommand messageCommand)
     {
-        // Read in next command
-
-        ChatscriptCommand chatscriptCommand = m_chatscriptCurrent.m_commands[m_iCommand++];
-
-        switch (chatscriptCommand.m_type)
-        {
-            case ChatscriptCommand.TYPE.MESSAGE:
-                MessageCommand messageCommand = (MessageCommand)chatscriptCommand;
-                PushMessage(messageCommand.m_strUser, ChannelManager.Instance.SpriteForUser(messageCommand.m_strUser), messageCommand.m_strMessage);
-                m_timeNextCommand = Time.time + m_secDelayBase;
-                break;
-
-            case ChatscriptCommand.TYPE.PAUSE:
-                PauseCommand pauseCommand = (PauseCommand)chatscriptCommand;
-                m_timeNextCommand = Time.time + pauseCommand.m_secPause;
-                break;
-
-            default:
-                throw new System.ArgumentException();
-        }
+        PushMessage(messageCommand.m_strUser, ChannelManager.Instance.SpriteForUser(messageCommand.m_strUser), messageCommand.m_strMessage);
     }
 
     public void PushMessage(string strUser, Sprite spriteProfile, string strMessage)
     {
         // Create new message
         GameObject message = Instantiate(m_MessagePrefab, m_MessagesContainer.transform);
-        message.GetComponent<Message>().setMessage(strUser, strMessage, ChannelManager.Instance.CurrentGameTime(), spriteProfile, m_ChannelName);
+        message.GetComponent<Message>().setMessage(strUser, strMessage, ChannelManager.Instance.CurrentGameTimeString(), spriteProfile, m_ChannelName);
     }
 
     public void selectChannel()
     {
-        gameObject.SetActive(true);
+        gameObject.transform.GetChild(0).gameObject.SetActive(true);
     }
 
     public void deselectChannel()
     {
-        gameObject.SetActive(false);
+        gameObject.transform.GetChild(0).gameObject.SetActive(false);
     }
 
     public string getChannelName()
@@ -108,5 +89,19 @@ public class Channel : MonoBehaviour
     public List<Rule> getChannelRules()
     {
         return m_ChannelRules;
+    }
+
+    public void SetupForDay(int day)
+    {
+        m_chatscriptCurrent = m_dailyChatscripts[day];
+        m_iMessage = 0;
+
+        if (m_chatscriptCurrent)
+        {
+            m_timeNextOverride = 0;
+        }
+
+        getChannelButtonObject().SetActive(m_chatscriptCurrent);
+        gameObject.SetActive(m_chatscriptCurrent);
     }
 }

@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class ChannelManager : MonoBehaviour
 {
     [Header("Data")]
     [SerializeField]
-    [SerializeReference]
     public AllUserData m_allUsers;
 
     [Header("References")]
@@ -21,8 +21,8 @@ public class ChannelManager : MonoBehaviour
     [Header("Scene Components")]
     [SerializeField] private TextMeshProUGUI m_CurrentChannelHeader;
 
-    private bool m_dayStarted = false;
-    private float m_timeStarted = 0;
+    private float m_timeDayStart = 0;   // 0 = day hasn't started
+    private int m_day = 0;
 
     public static ChannelManager Instance { get; private set; }
     private void Awake()
@@ -38,17 +38,25 @@ public class ChannelManager : MonoBehaviour
         }
     }
 
-    public void Start()
+    void Update()
     {
-        SelectChannel(m_selectedChannel.getChannelName());
-        m_timeStarted = Time.time;
+        // End game at 5:30, give exact time for moderating
+
+        if (CurrentGameTime() >= Utils.HoursLinear(5.5f))
+        {
+            // Run end of day sequence
+
+            print("DAY COMPLETE");
+            m_day++;
+            StartDay();
+        }
     }
 
     public void GetPlayerMessage(string strInput)
     {
-        if (strInput == "yes")
+        if (IsTimeFrozen() && strInput.Contains("yes"))
         {
-            ChannelManager.Instance.StartDay();
+            ResumeTime();
         }
 
         m_selectedChannel.PushMessage(GameManager.instance.m_strPlayer, GameManager.instance.m_spritePlayer, strInput);
@@ -56,15 +64,32 @@ public class ChannelManager : MonoBehaviour
 
     public Sprite SpriteForUser(string strUser)
     {
-
         return m_allUsers.m_users.Find(user => user.m_strName == strUser).m_spriteProfile;
     }
 
-    public string CurrentGameTime()
+    public bool IsTimeFrozen()
     {
-        float dSec = Time.time - m_timeStarted;
+        return m_timeDayStart == 0;
+    }
 
-        float hours = 13 + (dSec / Constants.REAL_SECOND_TO_GAME_MINUTE_RATIO) / 60; // Add 13 because we start our days at 1 PM
+    public float CurrentGameTime()
+    {
+        // Start with 13 because we start our days at 1 PM
+        float hours = 13;
+
+        if (!IsTimeFrozen())
+        {
+            float dSec = Time.time - m_timeDayStart;
+
+            hours += dSec / Constants.REAL_SECOND_TO_GAME_HOUR_RATIO;
+        }
+
+        return hours;
+    }
+
+    public string CurrentGameTimeString()
+    {
+        float hours = CurrentGameTime();
 
         if (hours >= 24)
         {
@@ -73,6 +98,18 @@ public class ChannelManager : MonoBehaviour
 
         System.TimeSpan span = System.TimeSpan.FromHours(hours);
         return new System.DateTime().Add(span).ToShortTimeString();
+    }
+
+    public void StartDay()
+    {
+        SelectChannel("announcements");
+
+        // Setup channels
+
+        foreach (Channel channel in m_Channels)
+        {
+            channel.SetupForDay(m_day);
+        }
     }
 
     public void SelectChannel(string channelName)
@@ -96,10 +133,9 @@ public class ChannelManager : MonoBehaviour
         RulesDisplay.Instance.SetText();
     }
 
-    public void StartDay()
+    public void ResumeTime()
     {
-        this.m_dayStarted = true;
-        m_timeStarted = Time.time;
+        m_timeDayStart = Time.time; // Makes time move again, so messages in other channels will start
     }
 
     /* GETTERS */
@@ -107,10 +143,4 @@ public class ChannelManager : MonoBehaviour
     {
         return m_selectedChannel;
     }
-
-    public bool GetDayStarted()
-    {
-        return m_dayStarted;
-    }
-
 }

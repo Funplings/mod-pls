@@ -55,9 +55,11 @@ public static class ChatscriptParser
 
         string strText = Utils.ReadFile(s_strUnparsed + strFile);
 
-        // Parse
+        // Parse to a temporary list of commands
 
-        chatscriptData.m_commands.Clear();
+        chatscriptData.m_messages.Clear();
+
+        List<ChatscriptCommand> commands = new List<ChatscriptCommand>();
 
         MatchCollection matches = commandRegex.Matches(strText);
 
@@ -76,11 +78,11 @@ public static class ChatscriptParser
 
                 string strUser = match.Groups[2].ToString();
 
-                if(!IsUserReal(allUserData, strUser))
+                if (!IsUserReal(allUserData, strUser))
                     throw new System.ArgumentException("Undefined user: " + strUser);
 
                 MessageCommand messageCommand = new MessageCommand(strUser, strMessage);
-                chatscriptData.m_commands.Add(messageCommand);
+                commands.Add(messageCommand);
             }
             else
             {
@@ -90,17 +92,67 @@ public static class ChatscriptParser
 
                 switch (strCommand)
                 {
-                    case "Pause":
+                    case "Hour":
 
-                        float secPause = float.Parse(strWords[1]);
-                        PauseCommand pauseCommand = new PauseCommand(secPause);
-                        chatscriptData.m_commands.Add(pauseCommand);
+                        float hour = Utils.HoursLinear(float.Parse(strWords[1]));
+
+                        HourCommand hourCommand = new HourCommand(hour);
+                        commands.Add(hourCommand);
                         break;
 
                     default:
                         throw new System.ArgumentException();
                 }
             }
+        }
+
+        // Do a second pass to write hours down for messages
+
+        float hourNow = 13;
+        float hourLater = Utils.HoursLinear(5); // Work in linear time range
+        int iNow = 0;
+        int iLater = commands.Count - 1;
+
+        for (int iCommand = 0; iCommand < commands.Count; iCommand++)
+        {
+            ChatscriptCommand command = commands[iCommand];
+
+            switch (command.m_type)
+            {
+                case ChatscriptCommand.TYPE.MESSAGE:
+                    MessageCommand messageCommand = (MessageCommand)command;
+                    float hour = Utils.Map(iNow, iLater, hourNow, hourLater, iCommand);
+                    messageCommand.m_hourSent = Utils.HoursLinear(hour);
+                    chatscriptData.m_messages.Add(messageCommand);
+                    break;
+
+                case ChatscriptCommand.TYPE.HOUR:
+                    HourCommand hourCommand = (HourCommand)command;
+                    hourNow = Utils.HoursLinear(hourCommand.m_hour);
+                    iNow = iCommand;
+
+                    // Look for next
+
+                    hourLater = Utils.HoursLinear(5);
+                    iLater = commands.Count - 1;
+
+                    for (int i = iNow + 1; i < commands.Count; i++)
+                    {
+                        if (commands[i].m_type == ChatscriptCommand.TYPE.HOUR)
+                        {
+                            HourCommand laterCommand = (HourCommand)commands[i];
+                            hourLater = Utils.HoursLinear(laterCommand.m_hour);
+                            iLater = i;
+                            break;
+                        }
+                    }
+
+                    break;
+
+                default:
+                    throw new System.ArgumentException();
+            }
+
         }
 
         // Set data dirty

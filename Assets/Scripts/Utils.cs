@@ -44,4 +44,17 @@ public static class Utils
         tempColor.a = alpha;
         image.color = tempColor;
     }
+
+    public static float Map(float minIn, float maxIn, float minOut, float maxOut, float input)
+    {
+        return Mathf.Lerp(minOut, maxOut, Mathf.InverseLerp(minIn, maxIn, input));
+    }
+
+    public static float HoursLinear(float hour)
+    {
+        if(hour < 13)
+            return hour + 24;
+
+        return hour;
+    }
 }

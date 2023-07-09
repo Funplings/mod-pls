@@ -12,44 +12,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b262de34474c140a67062435fd0294, type: 3}
   m_Name: Day 0_ Announcements
   m_EditorClassIdentifier: 
-  m_commands:
-  - rid: 1750842728424931417
-  - rid: 1750842728424931418
-  - rid: 1750842728424931419
-  - rid: 1750842728424931420
-  - rid: 1750842728424931421
-  - rid: 1750842728424931422
-  - rid: 1750842728424931423
+  m_messages:
+  - rid: 1750842728424931465
+  - rid: 1750842728424931466
+  - rid: 1750842728424931467
+  - rid: 1750842728424931468
+  - rid: 1750842728424931469
+  - rid: 1750842728424931470
+  - rid: 1750842728424931471
   references:
     version: 2
     RefIds:
-    - rid: 1750842728424931417
+    - rid: 1750842728424931465
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: Hello!!!! Congrats on being a mod
-    - rid: 1750842728424931418
+        m_hourSent: 13
+    - rid: 1750842728424931466
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: If its your first time its easy.
-    - rid: 1750842728424931419
+        m_hourSent: 15.666667
+    - rid: 1750842728424931467
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: "rn there is only one rule: you can\u2019t say potato (don\u2019t
           ask why it\u2019s a sensitive subject)"
-    - rid: 1750842728424931420
+        m_hourSent: 18.333334
+    - rid: 1750842728424931468
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: if someone breaks the rule, click on their message to flag
           it for deletion
-    - rid: 1750842728424931421
+        m_hourSent: 21
+    - rid: 1750842728424931469
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -57,17 +61,20 @@ MonoBehaviour:
         m_strMessage: "If you accidentally delete a message that doesn\u2019t break
           a rule, or if you let a rule-breaking message reach the top of the screen
           without deleting it, ull get a strike"
-    - rid: 1750842728424931422
+        m_hourSent: 23.666668
+    - rid: 1750842728424931470
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: If you get three strikes, unfortunately we will have to remove
           ur modding privileges :(
-    - rid: 1750842728424931423
+        m_hourSent: 26.333332
+    - rid: 1750842728424931471
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: "thats it!!! If you\u2019re ready to start type \u201Cyes\u201D
           in this channel"
+        m_hourSent: 29

@@ -24,6 +24,11 @@ public class CinematicManager : MonoBehaviour
         animator.SetTrigger("next");
     }
 
+    public void FinishIntro()
+    {
+        ChannelManager.Instance.StartDay();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -31,8 +36,8 @@ public class CinematicManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Period))
         {
             // Skip intro
-
             this.gameObject.SetActive(false);
+            FinishIntro();
         }
 #endif
     }

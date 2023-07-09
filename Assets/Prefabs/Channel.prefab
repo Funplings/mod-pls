@@ -255,9 +255,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f12291b0020257343a90e99d25cbab6c, type: 2}
   m_MessagesContainer: {fileID: 6362437001829866062}
   m_ChannelButtonObject: {fileID: 0}
-  m_secDelayBase: 1
   m_ChannelName: announcements
-  m_isAnnouncementsChannel: 1
+  m_isAnnouncementsChannel: 0
   m_ChannelRules: []
 --- !u!1 &7766108505563818845
 GameObject:
