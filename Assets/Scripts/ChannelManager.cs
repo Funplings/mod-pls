@@ -5,6 +5,12 @@ using UnityEngine;
 
 public class ChannelManager : MonoBehaviour
 {
+    [Header("Data")]
+    [SerializeField]
+    [SerializeReference]
+    public AllUserData m_allUsers;
+
+    [Header("References")]
     [SerializeField]
     [SerializeReference]
     public List<Channel> m_Channels = new List<Channel>();
@@ -45,7 +51,13 @@ public class ChannelManager : MonoBehaviour
             ChannelManager.Instance.StartDay();
         }
 
-        m_selectedChannel.PushMessage(GameManager.instance.m_strPlayer, strInput);
+        m_selectedChannel.PushMessage(GameManager.instance.m_strPlayer, GameManager.instance.m_spritePlayer, strInput);
+    }
+
+    public Sprite SpriteForUser(string strUser)
+    {
+
+        return m_allUsers.m_users.Find(user => user.m_strName == strUser).m_spriteProfile;
     }
 
     public string CurrentGameTime()

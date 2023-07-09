@@ -6,12 +6,11 @@ using UnityEngine;
 public class AllUserData : ScriptableObject
 {
     [SerializeField] 
-    [SerializeReference]
     public List<UserData> m_users = new List<UserData>();
 }
 
 [System.Serializable]
-public class UserData : ChatscriptCommand
+public class UserData
 {
     public string m_strName;
     public Sprite m_spriteProfile;

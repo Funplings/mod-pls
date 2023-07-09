@@ -7,15 +7,21 @@ using UnityEditor;
 public static class ChatscriptParser
 {
     const string s_strUnparsed = "/Unparsed Chatscripts/";
+    const string s_strUsers = "Assets/AllUserData.asset";
 
     [MenuItem("mod-pls/ParseChats")]
     public static void ParseChats()
     {
+        AllUserData allUserData = AssetDatabase.LoadAssetAtPath<AllUserData>(s_strUsers);
+
+        if (!allUserData)
+            throw new System.ArgumentException("No user data defined!");
+
         string[] strFiles = Utils.DirFiles(s_strUnparsed);
 
         foreach (string strFile in strFiles)
         {
-            ParseChatscript(strFile);
+            ParseChatscript(allUserData, strFile);
         }
 
         // Updated the asset database
@@ -24,7 +30,12 @@ public static class ChatscriptParser
         AssetDatabase.Refresh();
     }
 
-    private static void ParseChatscript(string strFile)
+    private static bool IsUserReal(AllUserData allUserData, string strUser)
+    {
+        return allUserData.m_users.Find(user => user.m_strName == strUser) != null;
+    }
+
+    private static void ParseChatscript(AllUserData allUserData, string strFile)
     {
         const string extension = ".txt";
         string strTrimmed = strFile.Substring(0, strFile.Length - extension.Length);
@@ -63,7 +74,12 @@ public static class ChatscriptParser
 
                 string strMessage = strText.Substring(iStart, iEnd - iStart).Trim();
 
-                MessageCommand messageCommand = new MessageCommand(match.Groups[2].ToString(), strMessage);
+                string strUser = match.Groups[2].ToString();
+
+                if(!IsUserReal(allUserData, strUser))
+                    throw new System.ArgumentException("Undefined user: " + strUser);
+
+                MessageCommand messageCommand = new MessageCommand(strUser, strMessage);
                 chatscriptData.m_commands.Add(messageCommand);
             }
             else

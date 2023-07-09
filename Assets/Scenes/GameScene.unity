@@ -674,7 +674,27 @@ PrefabInstance:
     - target: {fileID: 3284708140820765538, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
       propertyPath: m_dailyChatscripts.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 57b7e8282371c2d41be5e1d10408d19e, type: 2}
+      objectReference: {fileID: 11400000, guid: f12291b0020257343a90e99d25cbab6c, type: 2}
+    - target: {fileID: 3615363867111768726, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615363867111768726, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6746540750306494439, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
       propertyPath: m_Name
       value: YellingChannel
@@ -943,6 +963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2511af0daaea4514f9b589f99e013dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_allUsers: {fileID: 11400000, guid: 5c4a382acd5db384789158791be51fb0, type: 2}
   m_Channels:
   - {fileID: 577194698}
   - {fileID: 1579145929}
@@ -2069,7 +2090,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1608546938}
         m_TargetAssemblyTypeName: CinematicManager, Assembly-CSharp
         m_MethodName: GetUsername
-        m_Mode: 5
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2702,6 +2723,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1435388452}
     m_Modifications:
+    - target: {fileID: 969387757695442978, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 969387757695442978, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -12
+      objectReference: {fileID: 0}
     - target: {fileID: 1104721957293400545, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2786,6 +2815,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1198225755575341319, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198225755575341319, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_Direction
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3284708140820765538, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
       propertyPath: m_ChannelName
       value: announcements
@@ -2796,6 +2833,46 @@ PrefabInstance:
       objectReference: {fileID: 538207930}
     - target: {fileID: 3284708140820765538, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
       propertyPath: m_isAnnouncementsChannel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3284708140820765538, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_dailyChatscripts.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f12291b0020257343a90e99d25cbab6c, type: 2}
+    - target: {fileID: 3615363867111768726, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615363867111768726, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.00015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151481546586182298, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.00015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675635338930162011, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_Inertia
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675635338930162011, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_DecelerationRate
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6746540750306494439, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
@@ -3932,7 +4009,7 @@ MonoBehaviour:
       - m_Target: {fileID: 528661015}
         m_TargetAssemblyTypeName: ChannelManager, Assembly-CSharp
         m_MethodName: GetPlayerMessage
-        m_Mode: 5
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4222,6 +4299,30 @@ PrefabInstance:
       propertyPath: m_ChannelButtonObject
       value: 
       objectReference: {fileID: 1542138889}
+    - target: {fileID: 3284708140820765538, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_dailyChatscripts.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f12291b0020257343a90e99d25cbab6c, type: 2}
+    - target: {fileID: 3615363867111768726, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615363867111768726, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418755658406196593, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6746540750306494439, guid: 9266551a1e4d0b24ea593e2e68c43a6c, type: 3}
       propertyPath: m_Name
       value: GeneralChannel

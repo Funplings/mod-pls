@@ -64,7 +64,7 @@ public class Channel : MonoBehaviour
         {
             case ChatscriptCommand.TYPE.MESSAGE:
                 MessageCommand messageCommand = (MessageCommand)chatscriptCommand;
-                PushMessage(messageCommand.m_strUser, messageCommand.m_strMessage);
+                PushMessage(messageCommand.m_strUser, ChannelManager.Instance.SpriteForUser(messageCommand.m_strUser), messageCommand.m_strMessage);
                 m_timeNextCommand = Time.time + m_secDelayBase;
                 break;
 
@@ -78,21 +78,21 @@ public class Channel : MonoBehaviour
         }
     }
 
-    public void PushMessage(string strUser, string strMessage)
+    public void PushMessage(string strUser, Sprite spriteProfile, string strMessage)
     {
         // Create new message
         GameObject message = Instantiate(m_MessagePrefab, m_MessagesContainer.transform);
-        message.GetComponent<Message>().setMessage(strUser, strMessage, "4:00 AM", null, m_ChannelName);
+        message.GetComponent<Message>().setMessage(strUser, strMessage, ChannelManager.Instance.CurrentGameTime(), spriteProfile, m_ChannelName);
     }
 
     public void selectChannel()
     {
-        m_MessagesContainer.SetActive(true);
+        gameObject.SetActive(true);
     }
 
     public void deselectChannel()
     {
-        m_MessagesContainer.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public string getChannelName()
