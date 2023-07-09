@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5185802926804967339
 MonoBehaviour:
@@ -63,5 +63,15 @@ MonoBehaviour:
   - name: biden
     firstPass: {fileID: 8300000, guid: 7de30fde3b2f05e47b92fab18d758e90, type: 3}
     loopPass: {fileID: 8300000, guid: a8ed0c6eac9b4db4e8aee1356ed7f0f6, type: 3}
+    loop: 1
+    volume: 0.377
+  - name: eshopy
+    firstPass: {fileID: 0}
+    loopPass: {fileID: 8300000, guid: 43fb32481779bc444a90fb4e338c9a45, type: 3}
+    loop: 1
+    volume: 0.377
+  - name: idaho
+    firstPass: {fileID: 0}
+    loopPass: {fileID: 8300000, guid: 4e569e5b16b419c4593f6d0e24d6338f, type: 3}
     loop: 1
     volume: 0.377

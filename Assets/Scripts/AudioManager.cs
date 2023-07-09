@@ -53,11 +53,6 @@ public class AudioManager : MonoBehaviour
         SetupSFXChannels();
     }
 
-    void Start()
-    {
-        PlayMusic("biden");
-    }
-
     private void SetupSFXChannels()
     {
         sfxChannels = new AudioSource[sfxChannelCount];

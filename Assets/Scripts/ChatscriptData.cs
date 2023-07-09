@@ -7,7 +7,7 @@ public class ChatscriptData : ScriptableObject
 {
     [SerializeField] 
     [SerializeReference]
-    public List<ChatscriptCommand> m_commands = new List<ChatscriptCommand>();
+    public List<MessageCommand> m_messages = new List<MessageCommand>();
 }
 
 [System.Serializable]
@@ -16,7 +16,7 @@ public abstract class ChatscriptCommand
     public enum TYPE
     {
         MESSAGE,
-        PAUSE
+        HOUR
     }
 
     public TYPE m_type;
@@ -35,17 +35,20 @@ public class MessageCommand : ChatscriptCommand
 
     public string m_strUser;
     public string m_strMessage;
+    public float m_hourSent;
 }
 
-[System.Serializable]
-public class PauseCommand : ChatscriptCommand
-{
-    public PauseCommand(float secPause)
-    {
-        m_type = TYPE.PAUSE;
+// Intermediate command
 
-        m_secPause = secPause;
+[System.Serializable]
+public class HourCommand : ChatscriptCommand
+{
+    public HourCommand(float hour)
+    {
+        m_type = TYPE.HOUR;
+
+        m_hour = hour;
     }
 
-    public float m_secPause;
+    public float m_hour;
 }
