@@ -25,16 +25,19 @@ public class Message : MonoBehaviour
     [SerializeField]
     private Image m_profilePictureImage;
 
-
-    [SerializeField]
-    private Button m_clickable;
-
     private bool m_violatesRules;
+
+    private Button button;
+
+    void Awake()
+    {
+        button = GetComponent<Button>();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        m_clickable.onClick.AddListener(onClickMessage);
+        button.onClick.AddListener(onClickMessage);
         renderMessage();
     }
 
@@ -62,11 +65,14 @@ public class Message : MonoBehaviour
         if (m_violatesRules)
         {
             Debug.Log("This message violated the rules");
-        } else
+        }
+        else
         {
             Debug.Log("This message is fine");
         }
-        Utils.setImageAlpha(m_clickable.image, 255);
+
+        button.interactable = false;
+        m_timestampText.text = string.Format("<Deleted by {0}>", GameManager.instance.m_strPlayer);
     }
 
     void validateMessage()
