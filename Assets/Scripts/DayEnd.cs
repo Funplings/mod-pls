@@ -28,9 +28,12 @@ public class DayEnd : MonoBehaviour
 
     public void Restart()
     {
-        ChannelManager.Instance.Reset();
+        /*ChannelManager.Instance.Reset();
         m_cinematics.gameObject.SetActive(true);
-        m_cinematics.Trigger();
+        m_cinematics.Trigger();*/
+        AudioManager.instance.PlayNext();
+        ChannelManager.Instance.m_day -= 1;
+        ChannelManager.Instance.StartDay();
     }
 
     public void Continue()

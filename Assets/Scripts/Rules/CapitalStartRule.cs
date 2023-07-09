@@ -7,7 +7,7 @@ public class CapitalStartRule : Rule
 {
     public override bool CheckIfMessageViolatesRule(Message message)
     {
-        string strMessage = message.ToString();
+        string strMessage = message.GetMessage();
         int i = strMessage.IndexOf(strMessage.FirstOrDefault(char.IsLetter));
 
         if (i < 0) return false;

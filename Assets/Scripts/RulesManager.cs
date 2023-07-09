@@ -36,7 +36,11 @@ public class RulesManager : MonoBehaviour
         {
             if (iRule > ChannelManager.Instance.m_day) break;
 
-            if (m_universalRules[iRule].CheckIfMessageViolatesRule(message)) return true;
+            if (m_universalRules[iRule].CheckIfMessageViolatesRule(message))
+            {
+                Debug.Log(string.Format("{0} VIOLATES RULE {1}", message, m_universalRules[iRule].getDescription()));
+                return true;
+            }
         }
 
         // Check channel specific rules
@@ -45,7 +49,11 @@ public class RulesManager : MonoBehaviour
         {
             foreach (Rule rule in channelRules)
             {
-                if (rule.CheckIfMessageViolatesRule(message)) return true;
+                if (rule.CheckIfMessageViolatesRule(message))
+                {
+                    Debug.Log(string.Format("{0} VIOLATES RULE {1}", message, rule.getDescription()));
+                    return true;
+                }
             }
         }
 
