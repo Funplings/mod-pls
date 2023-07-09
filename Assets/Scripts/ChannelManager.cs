@@ -18,8 +18,14 @@ public class ChannelManager : MonoBehaviour
     [SerializeField]
     private Channel m_selectedChannel;
 
+    [SerializeField]
+    private GameObject m_goodPrefab;
+    [SerializeField]
+    private GameObject m_badPrefab;
+
     [Header("Scene Components")]
     [SerializeField] private TextMeshProUGUI m_CurrentChannelHeader;
+    [SerializeField] private Canvas m_canvas;
 
     private float m_timeDayStart = 0;   // 0 = day hasn't started
     private int m_day = 0;
@@ -50,6 +56,17 @@ public class ChannelManager : MonoBehaviour
             m_day++;
             StartDay();
         }
+    }
+
+    public void Delete(bool wasSuccess)
+    {
+        GameObject prefab = wasSuccess ? m_goodPrefab : m_badPrefab;
+
+        Vector3 mousePos = Input.mousePosition;
+
+        GameObject notif = Instantiate(prefab, mousePos, Quaternion.identity);
+        notif.transform.SetParent(m_canvas.transform, false);
+        notif.GetComponent<RectTransform>().position = mousePos;
     }
 
     public void GetPlayerMessage(string strInput)

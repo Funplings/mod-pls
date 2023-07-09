@@ -65,12 +65,12 @@ public class Message : MonoBehaviour
     {
         if (m_violatesRules)
         {
-            Debug.Log("This message violated the rules");
+            ChannelManager.Instance.Delete(true);
             AudioManager.instance.PlaySFX("Delete_Message");
         }
         else
         {
-            Debug.Log("This message is fine");
+            ChannelManager.Instance.Delete(false);
         }
 
         button.interactable = false;
