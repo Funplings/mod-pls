@@ -41,4 +41,9 @@ public class DayEnd : MonoBehaviour
         AudioManager.instance.PlayNext();
         ChannelManager.Instance.StartDay();
     }
+
+    public void PlaySFX(string sfx)
+    {
+        AudioManager.instance.PlaySFX(sfx);
+    }
 }

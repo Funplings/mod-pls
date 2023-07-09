@@ -13,31 +13,31 @@ MonoBehaviour:
   m_Name: Day 3 Finale
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842742826337142
-  - rid: 1750842742826337143
-  - rid: 1750842742826337144
-  - rid: 1750842742826337145
-  - rid: 1750842742826337146
-  - rid: 1750842742826337147
-  - rid: 1750842742826337148
-  - rid: 1750842742826337149
-  - rid: 1750842742826337150
-  - rid: 1750842742826337151
-  - rid: 1750842742826337152
-  - rid: 1750842742826337153
-  - rid: 1750842742826337154
-  - rid: 1750842742826337155
-  - rid: 1750842742826337156
-  - rid: 1750842742826337157
-  - rid: 1750842742826337158
-  - rid: 1750842742826337159
-  - rid: 1750842742826337160
-  - rid: 1750842742826337161
-  - rid: 1750842742826337162
+  - rid: 1750842743379984746
+  - rid: 1750842743379984747
+  - rid: 1750842743379984748
+  - rid: 1750842743379984749
+  - rid: 1750842743379984750
+  - rid: 1750842743379984751
+  - rid: 1750842743379984752
+  - rid: 1750842743379984753
+  - rid: 1750842743379984754
+  - rid: 1750842743379984755
+  - rid: 1750842743379984756
+  - rid: 1750842743379984757
+  - rid: 1750842743379984758
+  - rid: 1750842743379984759
+  - rid: 1750842743379984760
+  - rid: 1750842743379984761
+  - rid: 1750842743379984762
+  - rid: 1750842743379984763
+  - rid: 1750842743379984764
+  - rid: 1750842743379984765
+  - rid: 1750842743379984766
   references:
     version: 2
     RefIds:
-    - rid: 1750842742826337142
+    - rid: 1750842743379984746
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
         m_strMessage: THIS FINAL EPISODE, THERE IS SO MUCH TO SAY BUT FIRST, IT WAS
           CRAZY
         m_hourSent: 13.428572
-    - rid: 1750842742826337143
+    - rid: 1750842743379984747
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
         m_strMessage: IT WOULD HAVE BEEN BETTER IF THE ORIGINAL KLOMPO WAS STILL
           AROUND FOR THE END
         m_hourSent: 13.857142
-    - rid: 1750842742826337144
+    - rid: 1750842743379984748
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -61,35 +61,35 @@ MonoBehaviour:
         m_strMessage: i thought the finally was pretty well made klompo jr got to
           shine a little
         m_hourSent: 14.285714
-    - rid: 1750842742826337145
+    - rid: 1750842743379984749
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: HE SHOULD HAVE LIVED!!! IT SHOULD HAVE BEEN ME [deleted]
         m_hourSent: 14.714286
-    - rid: 1750842742826337146
+    - rid: 1750842743379984750
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: ARE WE ALL TALKING ABOUT THE FINALLY
         m_hourSent: 15.142858
-    - rid: 1750842742826337147
+    - rid: 1750842743379984751
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: "YES WASN\u2019T IT AMAZING"
         m_hourSent: 15.571428
-    - rid: 1750842742826337148
+    - rid: 1750842743379984752
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: I GOT TO SEE MY AMAZING BOO IN SO MUCH GLORY
         m_hourSent: 20.40625
-    - rid: 1750842742826337149
+    - rid: 1750842743379984753
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -97,28 +97,28 @@ MonoBehaviour:
         m_strMessage: BOO DID AN AMAZING JOB OF HOLDING OF THE ENEMIES TO LET ORPHANZO
           TRY TO FINISH EVERYTHING
         m_hourSent: 20.8125
-    - rid: 1750842742826337150
+    - rid: 1750842743379984754
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: TOO BAD PARENTI HAD A GUN WHICH WAS NEVER EVEN REALLY EXPLAINED
         m_hourSent: 21.21875
-    - rid: 1750842742826337151
+    - rid: 1750842743379984755
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: RIGHT!!! HOW DID HE EVEN GET THE GUN [DELETED]
         m_hourSent: 21.625
-    - rid: 1750842742826337152
+    - rid: 1750842743379984756
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: I THOUGHT THAT GUNS WERE BANNED THEN TAKEN BEFORE THE APOCALYPSE
         m_hourSent: 22.03125
-    - rid: 1750842742826337153
+    - rid: 1750842743379984757
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
         m_strMessage: THAT WAS ONLY SPECULATION THAT PEOPLE HAD FROM A SMALL DOCUMENT
           FROM SEASON 2
         m_hourSent: 22.4375
-    - rid: 1750842742826337154
+    - rid: 1750842743379984758
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -134,7 +134,7 @@ MonoBehaviour:
         m_strMessage: YEAH BUT SEASON ONE DEFINITELY SAID THAT THE GOVERNMENT BANNED
           THEM AT THE VERY LEAST
         m_hourSent: 22.84375
-    - rid: 1750842742826337155
+    - rid: 1750842743379984759
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
         m_strMessage: that may be true but we know there are some people who would
           hided them anyway
         m_hourSent: 23.25
-    - rid: 1750842742826337156
+    - rid: 1750842743379984760
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
         m_strMessage: "BUT WHY WOULD PARENTI OF ALL PEOPLE HAVE ONE WOULDN\u2019T
           THEY BE WAY MORE AGAINST HAVING ONE"
         m_hourSent: 23.65625
-    - rid: 1750842742826337157
+    - rid: 1750842743379984761
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
         m_strMessage: "IM MORE INTERESTED IN WHAT THE ENDING WAS LIKE WHAT THAT DIDN\u2019T
           FEEL LIKE AN ENDING"
         m_hourSent: 24.0625
-    - rid: 1750842742826337158
+    - rid: 1750842743379984762
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -166,14 +166,14 @@ MonoBehaviour:
         m_strMessage: I HAVE NO IDEA WHAT THEY WERE THINKING BUT AT LEAST WE GOT
           TO FIND OUT WHAT THE ALLSPICE WAS
         m_hourSent: 24.46875
-    - rid: 1750842742826337159
+    - rid: 1750842743379984763
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Defender_of_boo
         m_strMessage: THAT WAS ONE OF THE BIGGEST PLOT TWISTS OF THIS WHOLE SEASON
         m_hourSent: 24.875
-    - rid: 1750842742826337160
+    - rid: 1750842743379984764
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
         m_strMessage: "DON\u2019T DO MY BOY LIKE THAT HE WAS DEFINITELY THE BIGGEST
           PLOT TWIST THIS SEASON"
         m_hourSent: 25.28125
-    - rid: 1750842742826337161
+    - rid: 1750842743379984765
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -189,7 +189,7 @@ MonoBehaviour:
         m_strMessage: THERE WERE JUST TOO MANY THINGS IN THIS EPISODE TO CHOOSE JUST
           ONE
         m_hourSent: 25.6875
-    - rid: 1750842742826337162
+    - rid: 1750842743379984766
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0

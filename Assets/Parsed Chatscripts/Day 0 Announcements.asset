@@ -13,47 +13,47 @@ MonoBehaviour:
   m_Name: Day 0 Announcements
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842742826337198
-  - rid: 1750842742826337199
-  - rid: 1750842742826337200
-  - rid: 1750842742826337201
-  - rid: 1750842742826337202
-  - rid: 1750842742826337203
-  - rid: 1750842742826337204
+  - rid: 1750842743379984802
+  - rid: 1750842743379984803
+  - rid: 1750842743379984804
+  - rid: 1750842743379984805
+  - rid: 1750842743379984806
+  - rid: 1750842743379984807
+  - rid: 1750842743379984808
   references:
     version: 2
     RefIds:
-    - rid: 1750842742826337198
+    - rid: 1750842743379984802
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: Hello!!!! Congrats on being a mod
-        m_hourSent: 13
-    - rid: 1750842742826337199
+        m_hourSent: 24.714285
+    - rid: 1750842743379984803
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: "If it\u2019s your first time it\u2019s easy"
-        m_hourSent: 15.666667
-    - rid: 1750842742826337200
+        m_hourSent: 25.428572
+    - rid: 1750842743379984804
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: "Rn there is only one rule: you can\u2019t say potato (don\u2019t
           ask why it\u2019s a sensitive subject)"
-        m_hourSent: 18.333334
-    - rid: 1750842742826337201
+        m_hourSent: 26.142857
+    - rid: 1750842743379984805
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: If someone breaks the rule, click on their message to delete
           it
-        m_hourSent: 21
-    - rid: 1750842742826337202
+        m_hourSent: 26.857143
+    - rid: 1750842743379984806
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -61,16 +61,16 @@ MonoBehaviour:
         m_strMessage: "Make sure to enforce the rules properly! At the end of the
           day we\u2019ll figure out how many violating messages you missed and how
           many you erroneously deleted"
-        m_hourSent: 23.666668
-    - rid: 1750842742826337203
+        m_hourSent: 27.571428
+    - rid: 1750842743379984807
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Jr_lover<3
         m_strMessage: If you make too many mistakes, unfortunately we will have to
           remove ur modding privileges :(
-        m_hourSent: 26.333332
-    - rid: 1750842742826337204
+        m_hourSent: 28.285715
+    - rid: 1750842743379984808
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0

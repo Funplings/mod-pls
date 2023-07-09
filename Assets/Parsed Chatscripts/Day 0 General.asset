@@ -13,278 +13,278 @@ MonoBehaviour:
   m_Name: Day 0 General
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842742826337101
-  - rid: 1750842742826337102
-  - rid: 1750842742826337103
-  - rid: 1750842742826337104
-  - rid: 1750842742826337105
-  - rid: 1750842742826337106
-  - rid: 1750842742826337107
-  - rid: 1750842742826337108
-  - rid: 1750842742826337109
-  - rid: 1750842742826337110
-  - rid: 1750842742826337111
-  - rid: 1750842742826337112
-  - rid: 1750842742826337113
-  - rid: 1750842742826337114
-  - rid: 1750842742826337115
-  - rid: 1750842742826337116
-  - rid: 1750842742826337117
-  - rid: 1750842742826337118
-  - rid: 1750842742826337119
-  - rid: 1750842742826337120
-  - rid: 1750842742826337121
-  - rid: 1750842742826337122
-  - rid: 1750842742826337123
-  - rid: 1750842742826337124
-  - rid: 1750842742826337125
-  - rid: 1750842742826337126
-  - rid: 1750842742826337127
-  - rid: 1750842742826337128
-  - rid: 1750842742826337129
-  - rid: 1750842742826337130
-  - rid: 1750842742826337131
-  - rid: 1750842742826337132
-  - rid: 1750842742826337133
-  - rid: 1750842742826337134
-  - rid: 1750842742826337135
-  - rid: 1750842742826337136
-  - rid: 1750842742826337137
-  - rid: 1750842742826337138
-  - rid: 1750842742826337139
-  - rid: 1750842742826337140
-  - rid: 1750842742826337141
+  - rid: 1750842743379984705
+  - rid: 1750842743379984706
+  - rid: 1750842743379984707
+  - rid: 1750842743379984708
+  - rid: 1750842743379984709
+  - rid: 1750842743379984710
+  - rid: 1750842743379984711
+  - rid: 1750842743379984712
+  - rid: 1750842743379984713
+  - rid: 1750842743379984714
+  - rid: 1750842743379984715
+  - rid: 1750842743379984716
+  - rid: 1750842743379984717
+  - rid: 1750842743379984718
+  - rid: 1750842743379984719
+  - rid: 1750842743379984720
+  - rid: 1750842743379984721
+  - rid: 1750842743379984722
+  - rid: 1750842743379984723
+  - rid: 1750842743379984724
+  - rid: 1750842743379984725
+  - rid: 1750842743379984726
+  - rid: 1750842743379984727
+  - rid: 1750842743379984728
+  - rid: 1750842743379984729
+  - rid: 1750842743379984730
+  - rid: 1750842743379984731
+  - rid: 1750842743379984732
+  - rid: 1750842743379984733
+  - rid: 1750842743379984734
+  - rid: 1750842743379984735
+  - rid: 1750842743379984736
+  - rid: 1750842743379984737
+  - rid: 1750842743379984738
+  - rid: 1750842743379984739
+  - rid: 1750842743379984740
+  - rid: 1750842743379984741
+  - rid: 1750842743379984742
+  - rid: 1750842743379984743
+  - rid: 1750842743379984744
+  - rid: 1750842743379984745
   references:
     version: 2
     RefIds:
-    - rid: 1750842742826337101
+    - rid: 1750842743379984705
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: How do I beat Klompo Jr
-        m_hourSent: 13
-    - rid: 1750842742826337102
+        m_hourSent: 24.121952
+    - rid: 1750842743379984706
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: like in the fighting game?
-        m_hourSent: 13.390244
-    - rid: 1750842742826337103
+        m_hourSent: 24.243902
+    - rid: 1750842743379984707
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: I finished the potato farm.
-        m_hourSent: 13.780488
-    - rid: 1750842742826337104
+        m_hourSent: 24.365854
+    - rid: 1750842743379984708
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: How do I beat Klmopo Jr
-        m_hourSent: 14.170732
-    - rid: 1750842742826337105
+        m_hourSent: 24.487804
+    - rid: 1750842743379984709
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: (umm you should probably read the rules about that word!)
-        m_hourSent: 14.560976
-    - rid: 1750842742826337106
+        m_hourSent: 24.609756
+    - rid: 1750842743379984710
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: Klompo jr
-        m_hourSent: 14.95122
-    - rid: 1750842742826337107
+        m_hourSent: 24.731707
+    - rid: 1750842743379984711
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: nahhhhhhhhhhhh
-        m_hourSent: 15.341463
-    - rid: 1750842742826337108
+        m_hourSent: 24.853659
+    - rid: 1750842743379984712
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: there is NO WAY you havent figured out how to beat KLOMPO JR
-        m_hourSent: 15.731708
-    - rid: 1750842742826337109
+        m_hourSent: 24.975609
+    - rid: 1750842743379984713
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: '@sin this guy is talking about the console game'
-        m_hourSent: 16.121952
-    - rid: 1750842742826337110
+        m_hourSent: 25.09756
+    - rid: 1750842743379984714
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: "i\u2019ve never heard of it, lol."
-        m_hourSent: 16.512196
-    - rid: 1750842742826337111
+        m_hourSent: 25.219513
+    - rid: 1750842743379984715
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: "yeah you spec\u2019d everything into def didnt you"
-        m_hourSent: 16.90244
-    - rid: 1750842742826337112
+        m_hourSent: 25.341463
+    - rid: 1750842743379984716
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: What is def
-        m_hourSent: 17.292683
-    - rid: 1750842742826337113
+        m_hourSent: 25.463415
+    - rid: 1750842743379984717
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: defense
-        m_hourSent: 17.682926
-    - rid: 1750842742826337114
+        m_hourSent: 25.585365
+    - rid: 1750842743379984718
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: "What is spec\u2019d"
-        m_hourSent: 18.07317
-    - rid: 1750842742826337115
+        m_hourSent: 25.707317
+    - rid: 1750842743379984719
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: ok look you just gotta kick his shins. like how they killed
           his dad in the show
-        m_hourSent: 18.463415
-    - rid: 1750842742826337116
+        m_hourSent: 25.829268
+    - rid: 1750842743379984720
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: What show
-        m_hourSent: 18.853659
-    - rid: 1750842742826337117
+        m_hourSent: 25.95122
+    - rid: 1750842743379984721
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: oh!
-        m_hourSent: 19.243902
-    - rid: 1750842742826337118
+        m_hourSent: 26.073172
+    - rid: 1750842743379984722
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: "...wait wait how did you even find this server if you\u2019re
           not a fan of the show?"
-        m_hourSent: 19.634146
-    - rid: 1750842742826337119
+        m_hourSent: 26.195122
+    - rid: 1750842743379984723
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: "it\u2019s right there in the server name, haha."
-        m_hourSent: 20.024391
-    - rid: 1750842742826337120
+        m_hourSent: 26.317074
+    - rid: 1750842743379984724
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: "@sin it\u2019s because clearly iyyo had nothing better to
           do than get klomped on"
-        m_hourSent: 20.414635
-    - rid: 1750842742826337121
+        m_hourSent: 26.439024
+    - rid: 1750842743379984725
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: in the year of our lord 2023
-        m_hourSent: 20.804878
-    - rid: 1750842742826337122
+        m_hourSent: 26.560976
+    - rid: 1750842743379984726
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: ...okayy dude
-        m_hourSent: 21.195122
-    - rid: 1750842742826337123
+        m_hourSent: 26.682926
+    - rid: 1750842743379984727
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: again
-        m_hourSent: 21.585365
-    - rid: 1750842742826337124
+        m_hourSent: 26.804878
+    - rid: 1750842743379984728
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: i am NOT your *dude*
-        m_hourSent: 21.975609
-    - rid: 1750842742826337125
+        m_hourSent: 26.926828
+    - rid: 1750842743379984729
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: Yeah all of us are here to talk abt the show, Iyyo
-        m_hourSent: 22.365852
-    - rid: 1750842742826337126
+        m_hourSent: 27.04878
+    - rid: 1750842743379984730
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: Ok I will go watch this TV show
-        m_hourSent: 22.756098
-    - rid: 1750842742826337127
+        m_hourSent: 27.170732
+    - rid: 1750842743379984731
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: I will not say potato anymore.
-        m_hourSent: 23.146341
-    - rid: 1750842742826337128
+        m_hourSent: 27.292683
+    - rid: 1750842743379984732
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: ummmm
-        m_hourSent: 23.536587
-    - rid: 1750842742826337129
+        m_hourSent: 27.414635
+    - rid: 1750842743379984733
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: LMAO
-        m_hourSent: 23.92683
-    - rid: 1750842742826337130
+        m_hourSent: 27.536585
+    - rid: 1750842743379984734
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: Nice
-        m_hourSent: 24.317074
-    - rid: 1750842742826337131
+        m_hourSent: 27.658537
+    - rid: 1750842743379984735
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: "sorry, it\u2019s kind of a sore subject right now..."
-        m_hourSent: 24.707317
-    - rid: 1750842742826337132
+        m_hourSent: 27.780487
+    - rid: 1750842743379984736
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: Cool that new ppl are joining tho
-        m_hourSent: 25.09756
-    - rid: 1750842742826337133
+        m_hourSent: 27.90244
+    - rid: 1750842743379984737
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -293,60 +293,60 @@ MonoBehaviour:
           comes around
 
           vroomster'
-        m_hourSent: 25.487804
-    - rid: 1750842742826337134
+        m_hourSent: 28.024391
+    - rid: 1750842743379984738
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: I will do it
-        m_hourSent: 25.878048
-    - rid: 1750842742826337135
+        m_hourSent: 28.146341
+    - rid: 1750842743379984739
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: And I will beat Klompo like in the show.
-        m_hourSent: 26.268291
-    - rid: 1750842742826337136
+        m_hourSent: 28.268293
+    - rid: 1750842743379984740
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: oh gosh, all of it?
-        m_hourSent: 26.658537
-    - rid: 1750842742826337137
+        m_hourSent: 28.390244
+    - rid: 1750842743379984741
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: the season finale is coming in 2 days so
-        m_hourSent: 27.04878
-    - rid: 1750842742826337138
+        m_hourSent: 28.512196
+    - rid: 1750842743379984742
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: "don\u2019t push yourself!"
-        m_hourSent: 27.439024
-    - rid: 1750842742826337139
+        m_hourSent: 28.634146
+    - rid: 1750842743379984743
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: sinamin_
         m_strMessage: "i can already tell you\u2019re a total Boo haha"
-        m_hourSent: 27.82927
-    - rid: 1750842742826337140
+        m_hourSent: 28.756098
+    - rid: 1750842743379984744
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: nope hes a Parenti
-        m_hourSent: 28.219513
-    - rid: 1750842742826337141
+        m_hourSent: 28.878048
+    - rid: 1750842743379984745
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: TinkerTonker
         m_strMessage: def a garlic powder elemental
-        m_hourSent: 28.609756
+        m_hourSent: 29
