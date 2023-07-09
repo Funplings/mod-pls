@@ -27,6 +27,8 @@ public class Message : MonoBehaviour
 
     public bool m_violatesRules;
 
+    private bool m_isModMessage;
+
     private Button button;
 
     void Awake()
@@ -47,6 +49,13 @@ public class Message : MonoBehaviour
         this.m_timestamp = timestamp;
         this.m_profilePicture = profilePicture;
         this.m_channelName = channelName;
+
+        UserData userData = ChannelManager.Instance.m_allUsers.User(m_username);
+        if (userData != null && userData.m_isMod)
+        {
+            m_isModMessage = true;
+        }
+
         validateMessage();
         renderMessage();
         AudioManager.instance.PlaySFX("New_Message");
@@ -67,6 +76,12 @@ public class Message : MonoBehaviour
         m_messageText.text = m_message;
         m_timestampText.text = m_timestamp;
         m_profilePictureImage.sprite = m_profilePicture;
+
+        // Check if user is a mod; if so, set usernameText color to red
+        if (m_isModMessage)
+        {
+            m_usernameText.color = Color.red;
+        }
     }
 
     void onClickMessage()
@@ -74,7 +89,6 @@ public class Message : MonoBehaviour
         if (m_violatesRules)
         {
             ChannelManager.Instance.Delete(true);
-            AudioManager.instance.PlaySFX("Delete_Message");
         }
         else
         {
@@ -82,11 +96,28 @@ public class Message : MonoBehaviour
         }
 
         button.interactable = false;
-        m_timestampText.text = string.Format("<Deleted by {0}>", GameManager.instance.m_strPlayer);
+
+        string label; 
+        if (ChannelManager.Instance.m_day == 4)
+        {
+            label = "Banned by";
+            AudioManager.instance.PlaySFX("Ban_Message");
+        } else
+        {
+            label = "Deleted by";
+            AudioManager.instance.PlaySFX("Delete_Message");
+        }
+        m_timestampText.text = string.Format("<{0} {1}>", label, GameManager.instance.m_strPlayer);
     }
 
     void validateMessage()
     {
+        // Check if user is a mod AND it is not the final day; if so, it doesn't violate the rules
+        if (m_isModMessage && ChannelManager.Instance.m_day != 4)
+        {
+            m_violatesRules = false;
+            return;
+        }
         m_violatesRules = RulesManager.Instance.ValidateMessage(this);
     }
 
