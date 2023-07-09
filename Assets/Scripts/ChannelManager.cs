@@ -128,10 +128,15 @@ public class ChannelManager : MonoBehaviour
         return m_timeDayStart == 0;
     }
 
+    public float StartHour()
+    {
+        if(m_day == 0) return 24;
+        else return 13;
+    }
+
     public float CurrentGameTime()
     {
-        // Start with 13 because we start our days at 1 PM
-        float hours = 13;
+        float hours = StartHour();
 
         if (!IsTimeFrozen())
         {

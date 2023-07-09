@@ -13,35 +13,35 @@ MonoBehaviour:
   m_Name: Day 2 Gamers
   m_EditorClassIdentifier: 
   m_messages:
-  - rid: 1750842738502271408
-  - rid: 1750842738502271409
-  - rid: 1750842738502271410
-  - rid: 1750842738502271411
-  - rid: 1750842738502271412
-  - rid: 1750842738502271413
-  - rid: 1750842738502271414
-  - rid: 1750842738502271415
-  - rid: 1750842738502271416
-  - rid: 1750842738502271417
-  - rid: 1750842738502271418
-  - rid: 1750842738502271419
-  - rid: 1750842738502271420
-  - rid: 1750842738502271421
-  - rid: 1750842738502271422
-  - rid: 1750842738502271423
-  - rid: 1750842738502271424
-  - rid: 1750842738502271425
-  - rid: 1750842738502271426
-  - rid: 1750842738502271427
-  - rid: 1750842738502271428
-  - rid: 1750842738502271429
-  - rid: 1750842738502271430
-  - rid: 1750842738502271431
-  - rid: 1750842738502271432
+  - rid: 1750842742045148068
+  - rid: 1750842742045148069
+  - rid: 1750842742045148070
+  - rid: 1750842742045148071
+  - rid: 1750842742045148072
+  - rid: 1750842742045148073
+  - rid: 1750842742045148074
+  - rid: 1750842742045148075
+  - rid: 1750842742045148076
+  - rid: 1750842742045148077
+  - rid: 1750842742045148078
+  - rid: 1750842742045148079
+  - rid: 1750842742045148080
+  - rid: 1750842742045148081
+  - rid: 1750842742045148082
+  - rid: 1750842742045148083
+  - rid: 1750842742045148084
+  - rid: 1750842742045148085
+  - rid: 1750842742045148086
+  - rid: 1750842742045148087
+  - rid: 1750842742045148088
+  - rid: 1750842742045148089
+  - rid: 1750842742045148090
+  - rid: 1750842742045148091
+  - rid: 1750842742045148092
   references:
     version: 2
     RefIds:
-    - rid: 1750842738502271408
+    - rid: 1750842742045148068
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -49,42 +49,42 @@ MonoBehaviour:
         m_strMessage: H3y y@ll i fin@lly downlo@d3d this g@m3 @nd w@s wond3ring if
           y@ll got @ny tips for m3
         m_hourSent: 13
-    - rid: 1750842738502271409
+    - rid: 1750842742045148069
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: "Don\u2019t b3 lik3 m3 b3 fr33 to pl@y"
         m_hourSent: 13.666667
-    - rid: 1750842738502271410
+    - rid: 1750842742045148070
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: vroomster99
         m_strMessage: Unlock th3 @uto pl@y3r @s soon @s possibl3
         m_hourSent: 14.333333
-    - rid: 1750842738502271411
+    - rid: 1750842742045148071
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: "I\u2019ll k33p th@t in mind"
         m_hourSent: 15
-    - rid: 1750842738502271412
+    - rid: 1750842742045148072
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: "also don\u2019t invest into your starting team"
         m_hourSent: 15.666667
-    - rid: 1750842738502271413
+    - rid: 1750842742045148073
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: "But Klonzo\u2026"
         m_hourSent: 16.333334
-    - rid: 1750842738502271414
+    - rid: 1750842742045148074
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
         m_strMessage: Who c@r3s @bout Klonzo 3v3ryon3 knows Klompoo is th3 r3@l b3st
           p@ir
         m_hourSent: 17
-    - rid: 1750842738502271415
+    - rid: 1750842742045148075
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
         m_strMessage: I find that the pairing of Orphanzo and Kalmpoo to be particularly
           engaging, unlike the other two, this is a much more refined pairing.
         m_hourSent: 17.666666
-    - rid: 1750842738502271416
+    - rid: 1750842742045148076
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -108,14 +108,14 @@ MonoBehaviour:
         m_strMessage: Its ok your b@sic@lly gu@r@nt33d b3tt3r units for thos3 two
           with th3 figur3 out som3 sort of b@nn3r n@m3
         m_hourSent: 18.333334
-    - rid: 1750842738502271417
+    - rid: 1750842742045148077
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: But i w@nt to k33p th3 origin@ls
         m_hourSent: 19
-    - rid: 1750842738502271418
+    - rid: 1750842742045148078
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
         m_strMessage: I p3rson@lly 3njoy th3 combo units with @nim@tions involving
           th3 klonzo p@iring
         m_hourSent: 19.666666
-    - rid: 1750842738502271419
+    - rid: 1750842742045148079
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -131,21 +131,21 @@ MonoBehaviour:
         m_strMessage: But its so much b3tt3r s33ing th3m fight sid3 by sid3 *clown
           3moji*
         m_hourSent: 20.333334
-    - rid: 1750842738502271420
+    - rid: 1750842742045148080
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Iyyo
         m_strMessage: "Oh @nd b3for3 i forg3t h3r3\u2019s my fri3nd link htps://b3_my_fri3nd.con/2k542pm51x29dd7"
         m_hourSent: 21
-    - rid: 1750842738502271421
+    - rid: 1750842742045148081
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Klompo_enjoyer
         m_strMessage: F33l fr33 to us3 my potato lov3r @s your support
         m_hourSent: 21.666668
-    - rid: 1750842738502271422
+    - rid: 1750842742045148082
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
         m_strMessage: Y3@h @nd unlik3 my n@m3 us3 my boo support sh3 is still som3how
           my b3st unit
         m_hourSent: 22.333332
-    - rid: 1750842738502271423
+    - rid: 1750842742045148083
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
         m_strMessage: "Th@nks th@t will b3 sup3r h3lpful @nd i c@n\u2019t w@it for
           th3 3v3nt coming up I hop3 th3r3 @r3n\u2019t @ny spoil3rs"
         m_hourSent: 23
-    - rid: 1750842738502271424
+    - rid: 1750842742045148084
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
         m_strMessage: Th3y did it th3y @ctu@lly fix3d h3r hurt box this upd@t3 is
           gr3@t
         m_hourSent: 23.666668
-    - rid: 1750842738502271425
+    - rid: 1750842742045148085
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -177,21 +177,21 @@ MonoBehaviour:
         m_strMessage: "Th3y luckily fix3d som3 of th3 @tt@cks too so th@t sh3 isn\u2019t
           @ b@d @tt@ck3r, y@y for b@l@ncing"
         m_hourSent: 24.333332
-    - rid: 1750842738502271426
+    - rid: 1750842742045148086
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Elite_Orphanzo
         m_strMessage: Of course Orphanzo is still the best character to play
         m_hourSent: 25
-    - rid: 1750842738502271427
+    - rid: 1750842742045148087
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: Boo_Main_hater
         m_strMessage: "Still c@n\u2019t r3cov3r for th3 lif3 of you though"
         m_hourSent: 25.666668
-    - rid: 1750842738502271428
+    - rid: 1750842742045148088
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -199,14 +199,14 @@ MonoBehaviour:
         m_strMessage: "Th3y @dd3d @ n3w fighting styl3 for P@r3nti @nd h3\u2019s
           @ctu@lly pl@y@bl3"
         m_hourSent: 26.333332
-    - rid: 1750842738502271429
+    - rid: 1750842742045148089
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
         m_strUser: parentididnothingwrong
         m_strMessage: Bless this upd@t3, @ll hail fri3s
         m_hourSent: 27
-    - rid: 1750842738502271430
+    - rid: 1750842742045148090
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
         m_strMessage: "Just b3c@us3 th3y @r3 pl@y@bl3 do3sn\u2019t m3@n th3y @r3
           @ny good clown"
         m_hourSent: 27.666668
-    - rid: 1750842738502271431
+    - rid: 1750842742045148091
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
         m_strMessage: Th3y kind@ m@d3 P@r3nti @ pr3f3ct count3r to R33s3 @nd only
           R33s3
         m_hourSent: 28.333332
-    - rid: 1750842738502271432
+    - rid: 1750842742045148092
       type: {class: MessageCommand, ns: , asm: Assembly-CSharp}
       data:
         m_type: 0
