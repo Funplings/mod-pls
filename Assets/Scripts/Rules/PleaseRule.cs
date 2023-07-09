@@ -6,6 +6,6 @@ public class PleaseRule : Rule
 {
     public override bool CheckIfMessageViolatesRule(Message message)
     {
-        return (message.GetMessage().ToLower().Contains("please"));
+        return !message.GetMessage().ToLower().Contains("please");
     }
 }
