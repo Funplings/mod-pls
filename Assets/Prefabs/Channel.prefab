@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59c6a740f41d94d41b9bfe27c5a29f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MessagePrefab: {fileID: 21321063107570785, guid: fbe9dfbf185295446806b8f26c652b7a, type: 3}
+  m_MessagePrefab: {fileID: 4228229807241843828, guid: fbe9dfbf185295446806b8f26c652b7a, type: 3}
   m_dailyChatscripts:
   - {fileID: 0}
   - {fileID: 0}
