@@ -70,6 +70,11 @@ public class AudioManager : MonoBehaviour
         return playingSong != null && musicName.Equals(playingSong.name);
     }
 
+    public string CurrentSong()
+    {
+        if(playingSong == null) return "(none)";
+        return playingSong.name;
+    }
 
     public void PlayMusic(string musicName, float fadeOutTime = .5f, float fadeInTime = 0f)
     {
@@ -108,6 +113,36 @@ public class AudioManager : MonoBehaviour
     public void SetSFXVolume(float ratio)
     {
         sfxVolume = ratio;
+    }
+
+    public void PlayPrev()
+    {
+        if (playingSong == null)
+        {
+            PlayMusic(musicList[musicList.Count - 1].name);
+            return;
+        }
+
+        int i = musicList.FindIndex(m => m.name == playingSong.name);
+        i--;
+        if (i < 0) i += musicList.Count;
+
+        PlayMusic(musicList[i].name);
+    }
+
+    public void PlayNext()
+    {
+        if (playingSong == null)
+        {
+            PlayMusic(musicList[0].name);
+            return;
+        }
+
+        int i = musicList.FindIndex(m => m.name == playingSong.name);
+        i++;
+        if (i >= musicList.Count) i = 0;
+
+        PlayMusic(musicList[i].name);
     }
 
     IEnumerator FadeAndDestroyOld(Music newMusic, float fadeOutTime, float fadeInTime)

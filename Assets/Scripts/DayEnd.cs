@@ -35,6 +35,7 @@ public class DayEnd : MonoBehaviour
 
     public void Continue()
     {
+        AudioManager.instance.PlayNext();
         ChannelManager.Instance.StartDay();
     }
 }

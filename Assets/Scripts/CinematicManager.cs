@@ -30,7 +30,7 @@ public class CinematicManager : MonoBehaviour
 
     public void Trigger()
     {
-        AudioManager.instance.PlayMusic("eshopy", 0.5f, 2);
+        AudioManager.instance.PlayNext();
         animator.SetTrigger("next");
     }
 
