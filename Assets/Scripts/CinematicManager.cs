@@ -14,8 +14,7 @@ public class CinematicManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AudioManager.instance.PlayMusic("eshopy", 0.5f, 2);
-        animator.SetTrigger("next");
+        Trigger();
     }
 
     public void GetUsername(string strInput)
@@ -27,6 +26,12 @@ public class CinematicManager : MonoBehaviour
     public void FinishIntro()
     {
         ChannelManager.Instance.StartDay();
+    }
+
+    public void Trigger()
+    {
+        AudioManager.instance.PlayMusic("eshopy", 0.5f, 2);
+        animator.SetTrigger("next");
     }
 
     // Update is called once per frame

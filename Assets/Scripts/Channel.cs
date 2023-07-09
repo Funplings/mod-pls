@@ -111,5 +111,31 @@ public class Channel : MonoBehaviour
 
         getChannelButtonObject().SetActive(m_chatscriptCurrent);
         gameObject.SetActive(m_chatscriptCurrent);
+
+        // Clear old messages
+
+        foreach (Transform child in m_MessagesContainer.transform)
+        {
+            Destroy(child.gameObject);
+        }
+    }
+
+    public bool Available()
+    {
+        return m_chatscriptCurrent;
+    }
+
+    public int CViolations()
+    {
+        int cViolations = 0;
+
+        foreach (Transform child in m_MessagesContainer.transform)
+        {
+            Message message = child.GetComponent<Message>();
+
+            if(message.m_violatesRules) cViolations++;
+        }
+
+        return cViolations;
     }
 }

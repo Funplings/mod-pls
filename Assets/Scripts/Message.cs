@@ -25,7 +25,7 @@ public class Message : MonoBehaviour
     [SerializeField]
     private Image m_profilePictureImage;
 
-    private bool m_violatesRules;
+    public bool m_violatesRules;
 
     private Button button;
 

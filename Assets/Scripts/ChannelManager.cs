@@ -26,9 +26,14 @@ public class ChannelManager : MonoBehaviour
     [Header("Scene Components")]
     [SerializeField] private TextMeshProUGUI m_CurrentChannelHeader;
     [SerializeField] private Canvas m_canvas;
+    [SerializeField] private DayEnd m_dayEnd;
+
 
     private float m_timeDayStart = 0;   // 0 = day hasn't started
     private int m_day = 0;
+
+    private int m_cMistake = 0;
+    private int m_cCorrect = 0;
 
     public static ChannelManager Instance { get; private set; }
     private void Awake()
@@ -50,17 +55,42 @@ public class ChannelManager : MonoBehaviour
 
         if (CurrentGameTime() >= Utils.HoursLinear(5.5f))
         {
-            // Run end of day sequence
-
-            print("DAY COMPLETE");
+            m_dayEnd.Trigger(GetResults());
             m_day++;
-            StartDay();
+            m_timeDayStart = 0;
+            m_cMistake = 0;
+            m_cCorrect = 0;
         }
+    }
+
+    private Results GetResults()
+    {
+        Results results = new Results();
+
+        results.cCorrect = m_cCorrect;
+        results.cMistake = m_cMistake;
+
+        int totalViolations = 0;
+
+        foreach (Channel channel in m_Channels)
+        {
+            if (channel.Available())
+            {
+                totalViolations += channel.CViolations();
+            }
+        }
+
+        results.cMiss = totalViolations - m_cCorrect;
+
+        return results;
     }
 
     public void Delete(bool wasSuccess)
     {
         GameObject prefab = wasSuccess ? m_goodPrefab : m_badPrefab;
+
+        if (wasSuccess) m_cCorrect++;
+        else m_cMistake++;
 
         Vector3 mousePos = Input.mousePosition;
 
@@ -82,6 +112,14 @@ public class ChannelManager : MonoBehaviour
     public Sprite SpriteForUser(string strUser)
     {
         return m_allUsers.User(strUser).m_spriteProfile;
+    }
+
+    public void Reset()
+    {
+        m_day = 0;
+        m_timeDayStart = 0;
+        m_cMistake = 0;
+        m_cCorrect = 0;
     }
 
     public bool IsTimeFrozen()
@@ -159,5 +197,19 @@ public class ChannelManager : MonoBehaviour
     public Channel GetSelectedChannel()
     {
         return m_selectedChannel;
+    }
+
+    // End of Day
+
+    public struct Results
+    {
+        public int cCorrect;
+        public int cMistake;
+        public int cMiss;
+
+        public int Total()
+        {
+            return cCorrect - cMistake - cMiss;
+        }
     }
 }
