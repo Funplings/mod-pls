@@ -5376,7 +5376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b6eed1a343ddbe45937fc841d6238a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_description: You must not mention the word "please".
+  m_description: You must include "please" in your message.
 --- !u!4 &1216633610
 Transform:
   m_ObjectHideFlags: 0
@@ -5732,7 +5732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: sfxList.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: musicList.Array.size
@@ -5753,6 +5753,14 @@ PrefabInstance:
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: sfxList.Array.data[3].name
       value: Bad_Delete
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
+      propertyPath: sfxList.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f325019302fc7c4c96b1e4285c321e2, type: 3}
+    - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
+      propertyPath: sfxList.Array.data[4].name
+      value: Change_Channel
       objectReference: {fileID: 0}
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: musicList.Array.data[0].name
@@ -5791,8 +5799,24 @@ PrefabInstance:
       value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
+      propertyPath: sfxList.Array.data[4].volume
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
+      propertyPath: musicList.Array.data[0].volume
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
+      propertyPath: musicList.Array.data[1].volume
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
+      propertyPath: musicList.Array.data[2].volume
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: musicList.Array.data[3].volume
-      value: 0.377
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 4244457024718686404, guid: f5351ab2da4ee194eafc9edeb2897c9c, type: 3}
       propertyPath: musicList.Array.data[4].volume
